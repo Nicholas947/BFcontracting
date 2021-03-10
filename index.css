@@ -1,0 +1,90 @@
+html{
+    height: auto;
+}
+body{
+    background-color: #000;
+}
+
+li, a, button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ecf0f1;
+    text-decoration: none;
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 1%;
+    background-color: #53565A;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -10px;
+}
+.navLinks{
+    list-style: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+.navLinks li a:hover{
+    color: #0088a9;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+.slideshow{
+    width: 100%;
+    height: 48vh;
+    position: relative;
+    animation: animate 16s ease-in-out infinite;
+    
+
+}
+@keyframes animate{
+    0%, 100%{
+        background-image: url(assets/frontCover.jpg);
+    }
+    33%{
+        background-image: url(assets/Frontcover2.jpg);
+    }
+    66%{
+        background-image: url(assets/frontCover3.jpg);
+    }
+    
+}
+
+
+#yearLogo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: #53565A;
+    padding: 5px 0px;
+    text-align: center;
+}

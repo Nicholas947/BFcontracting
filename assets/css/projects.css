@@ -44,3 +44,51 @@ section ul li.active{
     height: 100%;
     object-fit: cover;
 }
+
+.image{
+    position: relative;
+    width: 400px;
+}
+.img{
+    display: block;
+    width: 100%;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    display: flex;
+    font-family: 'Quicksand' sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+/* adds the go in and out of the text */
+.overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.overlay:hover > *{
+    transform: translateY(0px);
+
+}
+/*     ------------------------  */
+.imageTitle{
+    font-size: 2em;
+    font-weight: bold;
+}
+.imageDescription{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}

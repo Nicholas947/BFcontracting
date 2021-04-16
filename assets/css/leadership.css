@@ -1,0 +1,21 @@
+.header{
+    
+}
+
+.photos{
+    display: flex;
+    margin: auto;
+    align-items: center; /* Align Items Vertically */
+  justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image{
+    position: relative;
+    width: 400px;
+
+} 
+img.leader{
+display: block;
+width: 100%;
+
+}

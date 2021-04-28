@@ -54,3 +54,24 @@ footer{
     padding: 5px 0px;
     text-align: center;
 }
+.product{
+    display:flex;
+    margin: auto;
+}
+.itemBox{
+    width: 1280px;
+}
+#img{
+    width: 200px;
+    margin: auto;
+}
+section{
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+li a{
+    display: block;
+    padding: 30px;
+    height:100%;
+}

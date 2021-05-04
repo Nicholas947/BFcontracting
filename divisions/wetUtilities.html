@@ -6,30 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/navBar.css" rel="stylesheet" />
-    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="assets/css/projects.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpg">
-    
-    <title>Document</title>
+    <title>Projects</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="assets/logo.jpg" alt="Logo Image" height="100px" width="100px" />
-        <nav>
-            <ul class="navLinks">
-                <li><a href="index.html">B&F Contracting</a></li>
-                <li><a href="#">Expertise</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Join The Team</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <a class="contact" href="#"><button>Contact Us</button></a>
-    </header>
-    <h2>Wet Utilities</h2>
-    <p>synopsis</p>
-    <div>
-        <p>Drop Down Filters by not included</p>
-    </div>
+</nav>
+
+ 
+    <section>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="dry">Dry Utilities</li>
+            <li class="list" data-filter="wet">Wet Utilities</li>
+            <li class="list" data-filter="pAP">Pump & pipe</li>
+            <li class="list" data-filter="tAS">Traffic and Street</li>
+
+        </ul>
+        <div class="product">
+            <div class="itemBox dry image">
+                <img class="img" src="assets/Frontcover2.jpg"/>
+                <div class="overlay">
+                    <div class="imageTitle">Project name</div>
+                    <p class="imageDescription">
+                        Project description
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox tAS image">
+                <img class="img" src="assets/logo.jpg"/>
+                <div class="overlay">
+                    <div class="imageTitle">Project name</div>
+                    <p class="imageDescription">
+                        Project description
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox wet image">
+                <img class="img" src="assets/frontCover3.jpg"/>
+                <div class="overlay">
+                    <div class="imageTitle">Project name</div>
+                    <p class="imageDescription">
+                        Project description
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox pAP image">
+                <img class="img" src="assets/frontCover.jpg"/>
+                <div class="overlay">
+                    <div class="imageTitle">Project name</div>
+                    <p class="imageDescription">
+                        Project description
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox tAS image">
+                <img class="img" src="assets/templateHolder.jpg"/>
+                <div class="overlay">
+                    <div class="imageTitle">Project name</div>
+                    <p class="imageDescription">
+                        Project description
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.list').click(function(){
+            const value = $(this).attr('data-filter');
+            if(value == 'all'){
+                $('.itemBox').show('1000');
+            }
+            else{
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000')
+            }
+        })
+        $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+  </script>
+   
     <footer>
         <p id="footer">2020 © B&F CONTRACTING, INC. ALL RIGHTS RESERVED. SITE BY SMALL GIANTS, LLC</p>
     </footer>

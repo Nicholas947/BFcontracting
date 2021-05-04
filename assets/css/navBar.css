@@ -59,12 +59,9 @@ footer{
     padding: 5px 0px;
     text-align: center;
 }
-<<<<<<< HEAD
 nav{
     height: 100%;
 }
-=======
->>>>>>> main
 .product{
     display:flex;
     margin: auto;
@@ -83,7 +80,6 @@ section{
 }
 li a{
     display: block;
-<<<<<<< HEAD
     padding: 10px;
     height:100%;
 }
@@ -163,8 +159,3 @@ button{
 button.nav:hover{
     color: red;
 }
-=======
-    padding: 30px;
-    height:100%;
-}
->>>>>>> main

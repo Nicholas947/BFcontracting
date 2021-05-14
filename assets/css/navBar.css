@@ -25,9 +25,7 @@ header{
     align-items: center;
     width: 100%;
 }
-.navLinks button:hover{
-    color: rgb(3, 90, 255);
-}
+
 ul{
     list-style: none;
 }
@@ -106,12 +104,12 @@ width: 400%;
 border-radius: 5px;
 pointer-events: none;
 transform: translateX(-50%);
-/* box-shadow: 0px 0px 11px 3px black; */
+box-shadow: 0px 0px 11px 3px black;
 box-shadow: 3px 3px 9px;
 z-index: 10;
 margin-left: auto;
 
-/* opacity 0 */
+opacity: 0;
 
 /* width and height if needed */
 }
@@ -138,8 +136,8 @@ margin-left: auto;
     color: white;
     background: rgb(3, 90, 255);
 }
-.projects button:focus + .ul, .products button:focus + .ul {
-    opacity: 2;
+.projects button:focus + .ul, .products button:focus, a:focus{
+    opacity: 1;
     pointer-events: all;
     z-index: 10;
 }
@@ -161,10 +159,7 @@ button.nav{
     width: 1280px;
     min-width: none;
 }
-button.nav:hover{
+button.nav:hover, a.button:hover{
     color: red;
 }
-navBar{
-    height: 100%;
-    width: 100%;
-}
+

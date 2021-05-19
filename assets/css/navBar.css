@@ -10,8 +10,8 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0px;
     background-color: #53565A;
+    height: 100%;
 }
 .logo{
     cursor: pointer;
@@ -22,7 +22,6 @@ header{
     list-style: none;
     height: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
@@ -85,7 +84,7 @@ li a{
 }
 .products, .projects{
     position:relative;
-    width: 100%;
+    height: 100%;
 
 }
 ul{
@@ -96,7 +95,6 @@ ul{
     text-align: center;
 position: absolute;
 background: red;
-margin-top: 44px;
 display: flex;
 align-items: center;
 width: 400%;
@@ -106,17 +104,20 @@ transform: translateX(-50%);
 box-shadow: 0px 0px 11px 3px black;
 box-shadow: 3px 3px 9px;
 z-index: 10;
-margin-left: auto;
 opacity: 0;
 /* width and height if needed */
 }
-.navLinks button{
+.navLinks a.nav{
     /* Edits the button styles for each the drop downs */
     color: rgb(244, 244, 244);
-    background: none;
-    border: none;
     text-decoration: none;
-    width: 100%;
+    text-align: center;
+   margin: auto;
+    justify-content: bottom;
+    vertical-align: middle;
+    align-items: center;
+    margin: 18% 2%;
+
 }
 
 .projects li,
@@ -140,11 +141,9 @@ opacity: 0;
 }
 
 
-button.nav{
-    margin: 0px 10px;
-    float: right;
-    width: 100%;
-    width: 110px;
+.nav{
+    width: 120px;
+    
 }
 
 
@@ -156,7 +155,7 @@ button.nav{
     width: 1280px;
     min-width: none;
 }
-button.nav:hover, a.button:hover{
+a.nav:hover{
     color: red;
 }
 
@@ -165,9 +164,6 @@ button.nav:hover, a.button:hover{
     top: 0px;
     width: 100%;
     z-index: 2;
-
 }
 
-.navBar{
-    height: 100%;
-}
+

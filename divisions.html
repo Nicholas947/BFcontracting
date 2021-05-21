@@ -7,18 +7,20 @@
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/navBar.css" rel="stylesheet" />
     <link href="assets/css/divisions.css" rel="stylesheet" />
+    <script src="src/test.js"></script>
+
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpg">
     <title>Bfcontracting</title>
 </head>
 <body>
-<nav>
+    <nav class="topNav">
         <header>
             <img class="logo" src="assets/logo.png" alt="Logo Image" height="70px" width="70px" />
             <nav class="navBar">
                 <div class="navLinks">
-                        <div class="projects"><a class ="button"href="index.html">B&F Construction</a></div>
+                    <div class="projects"><a class ="nav">B&F Construction</a></div>
                     <div class="projects" >
-                        <button class="nav">Expertise</button>
+                        <a class="nav Expert" href="divisions.html">Expertise</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="text()"  class="btn"><a class="li" href="divisions/wetUtilities.html">Wet Utilities</a></li>
@@ -27,6 +29,7 @@
                                 <li onmouseover="traffic_street()"  class="btn"><a class="li" href="divisions/traffiAndStreet.html">Traffic Signals & Street lights</a></li>
                                 <li onmouseover="pump_pipe()" class="btn"><a class="li" href="divisions/pumpAndPipe.html">Pump & Pipe Services</a></li>
                             </ul>
+                            
                             
                             <div class="listItem">
                                 <p id="text">
@@ -37,7 +40,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <button class="nav">Projects</button>
+                        <a class="nav" href="projects.html">Projects</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="projects()"><a class="li" href="projects.html">All Projects</a></li>
@@ -54,7 +57,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <button class="nav">Join The Team</button>
+                        <a class="nav" href="joinTheTeam/careers.html">Join The Team</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="jobsearch()"><a class="li" href="joinTheTeam/search.html">Job Search</a></li>
@@ -70,7 +73,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <button class="nav">About</button>
+                        <a class="nav" href="about/benefit.html">About</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="visions()"><a class="li" href="about/vision.html">Vision, Values, and Core Beliefs</a></li>
@@ -86,7 +89,7 @@
                             
                         </div>
                     </div>
-                        
+                     
                 </div>
             </nav>
             <a class="contact" href="about/contact.html"><button class="contact2">Contact Me</button></a>

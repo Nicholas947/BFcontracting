@@ -6,133 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/navBar.css" rel="stylesheet" />
+    <script src="src/test.js"></script>
+
     <link href="assets/css/projects.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpg">
     <title>Projects</title>
 </head>
 <body> 
-
-        <nav>
-                <header>
-                    <img class="logo" src="assets/logo.png" alt="Logo Image" height="70px" width="70px" />
-                    <nav class="navBar">
-                        <div class="navLinks">
-                                <div class="projects"><a class ="button"href="index.html">B&F Construction</a></div>
-                            <div class="projects" >
-                                <button class="nav">Expertise</button>
-                                <div class="ul">
-                                    <ul>
-                                        <li onmouseover="text()"  class="btn"><a class="li" href="divisions/wetUtilities.html">Wet Utilities</a></li>
-                                        <li onmouseover="UtilityRehab()" class="btn"><a class="li" href="divisions/utilityRehab.html">Utility Rehabilitation</a></li>
-                                        <li onmouseover="dryUt()" class="btn"><a class="li" href="divisions/dryUtilities.html">Dry Utilities</a></li>
-                                        <li onmouseover="traffic_street()"  class="btn"><a class="li" href="divisions/traffiAndStreet.html">Traffic Signals & Street lights</a></li>
-                                        <li onmouseover="pump_pipe()" class="btn"><a class="li" href="divisions/pumpAndPipe.html">Pump & Pipe Services</a></li>
-                                    </ul>
+    <nav class="topNav">
+        <header>
+            <img class="logo" src="assets/logo.png" alt="Logo Image" height="70px" width="70px" />
+            <nav class="navBar">
+                <div class="navLinks">
+                    <div class="projects"><a class ="nav">B&F Construction</a></div>
+                    <div class="projects" >
+                        <a class="nav Expert" href="divisions.html">Expertise</a>
+                        <div class="ul">
+                            <ul>
+                                <li onmouseover="text()"  class="btn"><a class="li" href="divisions/wetUtilities.html">Wet Utilities</a></li>
+                                <li onmouseover="UtilityRehab()" class="btn"><a class="li" href="divisions/utilityRehab.html">Utility Rehabilitation</a></li>
+                                <li onmouseover="dryUt()" class="btn"><a class="li" href="divisions/dryUtilities.html">Dry Utilities</a></li>
+                                <li onmouseover="traffic_street()"  class="btn"><a class="li" href="divisions/traffiAndStreet.html">Traffic Signals & Street lights</a></li>
+                                <li onmouseover="pump_pipe()" class="btn"><a class="li" href="divisions/pumpAndPipe.html">Pump & Pipe Services</a></li>
+                            </ul>
+                            
+                            
+                            <div class="listItem">
+                                <p id="text">
                                     
-                                    <div class="listItem">
-                                        <p id="text">
-                                            
-                                        </p>
-                                    </div>
-                                    
-                                </div>
+                                </p>
                             </div>
-                            <div class="projects">
-                                <button class="nav">Projects</button>
-                                <div class="ul">
-                                    <ul>
-                                        <li onmouseover="projects()"><a class="li" href="projects.html">All Projects</a></li>
-                                        <li onmouseover="services()"><a class="li" href="projects/services.html">Services</a></li>
-                                        <li onmouseover="markets()"><a class="li" href="projects/markets.html">Markets</a></li>
-                                        <li onmouseover="delivery()"><a class="li" href="projects/delivery.html">Delivery Methods</a></li>
-                                    </ul>
-                                    <div class="listItem">
-                                        <p  id="text2">
-        
-                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div> 
-                            <div class="projects">
-                                <button class="nav">Join The Team</button>
-                                <div class="ul">
-                                    <ul>
-                                        <li onmouseover="jobsearch()"><a class="li" href="joinTheTeam/search.html">Job Search</a></li>
-                                        <li onmouseover="careers()"><a class="li" href="joinTheTeam/careers.html">Career Paths</a></li>
-                                        <li onmouseover="equal()"><a class="li" href="joinTheTeam/equal.html">Equal Opportunity <br>Employer Statement</a></li>
-                                    </ul>
-                                    
-                                    <div class="listItem">
-                                        <p  id="text3">
-                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class="projects">
-                                <button class="nav">About</button>
-                                <div class="ul">
-                                    <ul>
-                                        <li onmouseover="visions()"><a class="li" href="about/vision.html">Vision, Values, and Core Beliefs</a></li>
-                                        <li onmouseover="benefit()"><a class="li" href="about/benefit.html">The B&F Benefit</a></li>
-                                        <li onmouseover="history()"><a class="li" href="about/history.html">History of B&F Contracting</a></li>
-                                        <li onmouseover="meetTheTeam()"><a class="li" href="about/leadership.html">Meet the Team</a></li>
-                                    </ul>
-                                    
-                                    <div class="listItem">
-                                        <p  id="text4">
-                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                                
+                            
                         </div>
-                    </nav>
-                    <a class="contact" href="about/contact.html"><button class="contact2">Contact Me</button></a>
-                </header>
+                    </div>
+                    <div class="projects">
+                        <a class="nav" href="projects.html">Projects</a>
+                        <div class="ul">
+                            <ul>
+                                <li onmouseover="projects()"><a class="li" href="projects.html">All Projects</a></li>
+                                <li onmouseover="services()"><a class="li" href="projects/services.html">Services</a></li>
+                                <li onmouseover="markets()"><a class="li" href="projects/markets.html">Markets</a></li>
+                                <li onmouseover="delivery()"><a class="li" href="projects/delivery.html">Delivery Methods</a></li>
+                            </ul>
+                            <div class="listItem">
+                                <p  id="text2">
+
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <a class="nav" href="joinTheTeam/careers.html">Join The Team</a>
+                        <div class="ul">
+                            <ul>
+                                <li onmouseover="jobsearch()"><a class="li" href="joinTheTeam/search.html">Job Search</a></li>
+                                <li onmouseover="careers()"><a class="li" href="joinTheTeam/careers.html">Career Paths</a></li>
+                                <li onmouseover="equal()"><a class="li" href="joinTheTeam/equal.html">Equal Opportunity <br>Employer Statement</a></li>
+                            </ul>
+                            
+                            <div class="listItem">
+                                <p  id="text3">
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <a class="nav" href="about/benefit.html">About</a>
+                        <div class="ul">
+                            <ul>
+                                <li onmouseover="visions()"><a class="li" href="about/vision.html">Vision, Values, and Core Beliefs</a></li>
+                                <li onmouseover="benefit()"><a class="li" href="about/benefit.html">The B&F Benefit</a></li>
+                                <li onmouseover="history()"><a class="li" href="about/history.html">History of B&F Contracting</a></li>
+                                <li onmouseover="meetTheTeam()"><a class="li" href="about/leadership.html">Meet the Team</a></li>
+                            </ul>
+                            
+                            <div class="listItem">
+                                <p  id="text4">
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                     
+                </div>
             </nav>
-        
- 
+            <a class="contact" href="about/contact.html"><button class="contact2">Contact Me</button></a>
+        </header>
+    </nav>
+
     <section>
         <div class="dropdown">
-            <button class="dropbtn">Service</button>
-            <div class="dropdown-content">
-                    <ul class="drop">
-                        <li class="list active" data-filter="all">All</li>
-                        <li class="list" data-filter="dry">Dry Utilities</li>
-                        <li class="list" data-filter="wet">Wet Utilities</li>
-                        <li class="list" data-filter="pAP">Pump & pipe</li>
-                        <li class="list" data-filter="tAS">Traffic and Street</li>
-                    </ul>
+            <div class="flex">
+                <h1>Service</h1>
+                <button class="dropbtn">Dropdown</button>
             </div>
+            
+            <div class="dropdown">  
+                <div class="dropdown-content">
+                  <ul class="drop">
+                    <li onclick="serviceSort(0)" class="list active" data-filter="all">All</li>
+                    <li onclick="serviceSort(1)" class="list" data-filter="dry">Dry Utilities</li>
+                    <li onclick="serviceSort(2)" class="list" data-filter="wet">Wet Utilities</li>
+                    <li onclick="serviceSort(3)" class="list" data-filter="pAP">Pump & pipe</li>
+                    <li onclick="serviceSort(4)" class="list" data-filter="tAS">Traffic and Street</li>
+                </ul>
+                </div>
+              </div>
         </div>
         <div class="dropdown">
-                <button class="dropbtn">Market</button>
-                <div class="dropdown-content">
-                        <ul class="drop">
-                            <li class="list active" data-filter="all">All</li>
-                            <li class="list" data-filter="dry">Dry Utilities</li>
-                            <li class="list" data-filter="wet">Wet Utilities</li>
-                            <li class="list" data-filter="pAP">Pump & pipe</li>
-                            <li class="list" data-filter="tAS">Traffic and Street</li>
-                        </ul>
-                </div>
+            <div class="flex">
+                <h1>Market</h1>
+                <button class="dropbtn">Sort</button>
             </div>
-
-            <div class="dropdown">
-                    <button class="dropbtn">Delivery Method</button>
-                    <div class="dropdown-content">
-                            <ul class="drop">
-                                <li class="list active" data-filter="all">All</li>
-                                <li class="list" data-filter="dry">Dry Utilities</li>
-                                <li class="list" data-filter="wet">Wet Utilities</li>
-                                <li class="list" data-filter="pAP">Pump & pipe</li>
-                                <li class="list" data-filter="tAS">Traffic and Street</li>
-                            </ul>
-                    </div>
+            
+            <div class="dropdown">  
+                <div class="dropdown-content">
+                  <ul class="drop">
+                    <li onclick="marketSort(0)" class="list active" data-filter="all">All</li>
+                    <li onclick="marketSort(1)" class="list" data-filter="dry">Mission Critical & Data Centers</li>
+                    <li onclick="marketSort(2)" class="list" data-filter="wet">Manufacturing</li>
+                    <li onclick="marketSort(3)" class="list" data-filter="pAP">Municipal</li>
+                    <li onclick="marketSort(4)" class="list" data-filter="tAS">Commercial</li>
+                    <li onclick="marketSort(5)" class="list" data-filter="tAS">Education (K-12)</li>
+                    <li onclick="marketSort(6)" class="list" data-filter="tAS">Higher Education</li>
+                    <li onclick="marketSort(7)" class="list" data-filter="tAS">Aviation</li>
+                    <li onclick="marketSort(8)" class="list" data-filter="tAS">Landfill</li>
+                    <li onclick="marketSort(9)" class="list" data-filter="tAS">Mining & Pits</li>
+                </ul>
                 </div>
+              </div>
+        </div>
+        <div class="dropdown">
+            <div class="flex">
+                <h1>Delivery Method</h1>
+                <button class="dropbtn">sort</button>
+            </div>
+            
+            <div class="dropdown">  
+                <div class="dropdown-content">
+                  <ul class="drop">
+                    <li onclick="methodSort(0)" class="list active" data-filter="all">All</li>
+                    <li onclick="methodSort(1)" class="list" data-filter="dry">Design Bid Build</li>
+                    <li onclick="methodSort(2)" class="list" data-filter="wet">JOC</li>
+                    <li onclick="methodSort(3)" class="list" data-filter="pAP">CMAR</li>
+                    <li onclick="methodSort(4)" class="list" data-filter="tAS">Hard Bid</li>
+                    <li onclick="methodSort(5)" class="list" data-filter="pAP">Emergency Response Work</li>
+                </ul>
+                </div>
+              </div>
+        </div>
        
         <div class="product">
             <div class="itemBox dry image">
@@ -168,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="itemBox pAP image">
+            <div class="itemBox pAP se image">
                 <img class="img" src="assets/frontCover.jpg"/>
                 <div class="overlay">
                     <div class="content">
@@ -212,6 +236,81 @@
             $(this).addClass('active').siblings().removeClass('active');
         })
     })
+    var element = document.getElementsByClassName("dropbtn");
+    function marketSort(sort){
+        if(sort == 0){
+        element[1].innerHTML = " ";
+       }
+       if(sort == 1){
+        element[1].innerHTML = "Mission Critical & Data Centers";
+       }
+       else if(sort == 2){
+        element[1].innerHTML = "Manufacturing";
+       }
+       else if(sort == 3){
+        element[1].innerHTML = "Municipal";
+       }
+       if(sort == 4){
+        element[1].innerHTML = "Commercial";
+       }
+       else if(sort == 5){
+        element[1].innerHTML = "Education (K-12)";
+       }
+       else if(sort == 6){
+        element[1].innerHTML = "Higher Education";
+       }
+       if(sort == 7){
+        element[1].innerHTML = "Aviation";
+       }
+       else if(sort == 8){
+        element[1].innerHTML = "Landfill";
+       }
+       else if(sort == 9){
+        element[1].innerHTML = "Mining & Pits";
+       }
+    }
+    function methodSort(sort){
+        if(sort == 0){
+        element[3].innerHTML = " ";
+       }
+       if(sort == 1){
+        element[3].innerHTML = "Design Bid Build";
+       }
+       else if(sort == 2){
+        element[3].innerHTML = "JOC";
+       }
+       else if(sort == 3){
+        element[3].innerHTML = "CMAR";
+       }
+       if(sort == 4){
+        element[3].innerHTML = "Hard Bid";
+       }
+       else if(sort == 5){
+        element[3].innerHTML = "Emergency Response Work";
+       }
+    }
+    
+    function serviceSort(sort){
+        if(sort == 0){
+        element[0].innerHTML = " ";
+       }
+       if(sort == 1){
+        element[0].innerHTML = "Wet utilities";
+       }
+       else if(sort == 2){
+        element0[0].innerHTML = "Utility Rehabilitation";
+       }
+       else if(sort == 3){
+        element[0].innerHTML = "Dry Utilities";
+       }
+       if(sort == 4){
+        element[0].innerHTML = "Traffic Signals & Street Lights";
+       }
+       else if(sort == 5){
+        element[0].innerHTML = "Pump & Pipe Services";
+       }
+    }
+    
   </script>
    
     <footer>

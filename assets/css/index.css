@@ -50,12 +50,11 @@ html{
 .divisions{
     display: flex;
     margin: auto;
-
 }
 div#text{
-    width: auto;
+    width: 300px;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 5px;
 
     
 }
@@ -90,5 +89,5 @@ a#headers{
     display: block;
 }
 body{
-    margin-top: 4.5%;
+    margin-top: 3.7%;
 }

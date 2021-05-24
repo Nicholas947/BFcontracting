@@ -39,7 +39,7 @@ li a:hover{
 }
 
 .contact2{
-    margin-left: 20px;
+    margin-left: 5px;
     padding: 9px 25px;
     background-color: rgb(197, 0, 0);
     border: none;
@@ -56,12 +56,11 @@ footer{
     background-color: #53565A;
     padding: 5px 0px;
     text-align: center;
+    position: absolute;
+    width: 100%;
 }
 
-.product{
-    display:flex;
-    margin: auto;
-}
+
 .itemBox{
     width: 1280px;
 }
@@ -69,22 +68,17 @@ footer{
     width: 200px;
     margin: auto;
 }
-section{
-    padding: 20px;
-    margin: 40px auto;
-}
+
 li a{
     display: block;
     padding: 10px;
-    height:100%;
+    height: 100%;
 }
 
-.nav{
-    color: black;
-}
+
 .products, .projects{
     position:relative;
-    height: 100%;
+    width: 100%;
 
 }
 ul{
@@ -107,17 +101,14 @@ z-index: 10;
 opacity: 0;
 /* width and height if needed */
 }
-.navLinks a.nav{
+ .projects a.nav{
     /* Edits the button styles for each the drop downs */
     color: rgb(244, 244, 244);
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
-   margin: auto;
-    justify-content: bottom;
-    vertical-align: middle;
-    align-items: center;
-    margin: 18% 2%;
-
+    justify-content: center;
+    width: auto;
+    margin: 0px;
 }
 
 .projects li,
@@ -125,7 +116,6 @@ opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     border-radius: 5px;
 }
 
@@ -153,7 +143,6 @@ opacity: 0;
     margin: auto;
     align-items: center;
     width: 1280px;
-    min-width: none;
 }
 a.nav:hover{
     color: red;

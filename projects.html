@@ -15,7 +15,7 @@
 <body> 
     <nav class="topNav">
         <header>
-            <img class="logo" src="assets/logo.png" alt="Logo Image" height="70px" width="70px" />
+            <a class="logo" href="index.html"><img class="logo2" href="index.html" src="assets/Logo Horizontal.jpg" alt="Logo Image" height="70px" width="70px" /></a>
             <nav class="navBar">
                 <div class="navLinks">
                     <div class="projects"><a class ="nav">B&F Construction</a></div>
@@ -124,16 +124,16 @@
             <div class="dropdown">  
                 <div class="dropdown-content">
                   <ul class="drop">
-                    <li onclick="marketSort(0)" class="list active" data-filter="all">All</li>
-                    <li onclick="marketSort(1)" class="list" data-filter="dry">Mission Critical & Data Centers</li>
-                    <li onclick="marketSort(2)" class="list" data-filter="wet">Manufacturing</li>
-                    <li onclick="marketSort(3)" class="list" data-filter="pAP">Municipal</li>
-                    <li onclick="marketSort(4)" class="list" data-filter="tAS">Commercial</li>
-                    <li onclick="marketSort(5)" class="list" data-filter="tAS">Education (K-12)</li>
-                    <li onclick="marketSort(6)" class="list" data-filter="tAS">Higher Education</li>
-                    <li onclick="marketSort(7)" class="list" data-filter="tAS">Aviation</li>
-                    <li onclick="marketSort(8)" class="list" data-filter="tAS">Landfill</li>
-                    <li onclick="marketSort(9)" class="list" data-filter="tAS">Mining & Pits</li>
+                    <li onclick="marketSort(0)" class="list active" data-filter2="all">All</li>
+                    <li onclick="marketSort(1)" class="list" data-filter2="mD">Mission Critical & Data Centers</li>
+                    <li onclick="marketSort(2)" class="list" data-filter2="wet">Manufacturing</li>
+                    <li onclick="marketSort(3)" class="list" data-filter2="pAP">Municipal</li>
+                    <li onclick="marketSort(4)" class="list" data-filter2="tAS">Commercial</li>
+                    <li onclick="marketSort(5)" class="list" data-filter2="tAS">Education (K-12)</li>
+                    <li onclick="marketSort(6)" class="list" data-filter2="tAS">Higher Education</li>
+                    <li onclick="marketSort(7)" class="list" data-filter2="tAS">Aviation</li>
+                    <li onclick="marketSort(8)" class="list" data-filter2="tAS">Landfill</li>
+                    <li onclick="marketSort(9)" class="list" data-filter2="tAS">Mining & Pits</li>
                 </ul>
                 </div>
               </div>
@@ -147,19 +147,19 @@
             <div class="dropdown">  
                 <div class="dropdown-content">
                   <ul class="drop">
-                    <li onclick="methodSort(0)" class="list active" data-filter="all">All</li>
-                    <li onclick="methodSort(1)" class="list" data-filter="dry">Design Bid Build</li>
-                    <li onclick="methodSort(2)" class="list" data-filter="wet">JOC</li>
-                    <li onclick="methodSort(3)" class="list" data-filter="pAP">CMAR</li>
-                    <li onclick="methodSort(4)" class="list" data-filter="tAS">Hard Bid</li>
-                    <li onclick="methodSort(5)" class="list" data-filter="pAP">Emergency Response Work</li>
+                    <li onclick="methodSort(0)" class="list active" data-filter3="all">All</li>
+                    <li onclick="methodSort(1)" class="list" data-filter3="dry">Design Bid Build</li>
+                    <li onclick="methodSort(2)" class="list" data-filter3="wet">JOC</li>
+                    <li onclick="methodSort(3)" class="list" data-filter3="pAP">CMAR</li>
+                    <li onclick="methodSort(4)" class="list" data-filter3="tAS">Hard Bid</li>
+                    <li onclick="methodSort(5)" class="list" data-filter3="pAP">Emergency Response Work</li>
                 </ul>
                 </div>
               </div>
         </div>
        
         <div class="product">
-            <div class="itemBox dry image">
+            <div class="itemBox dry mD image">
                 <img class="img" src="assets/Frontcover2.jpg"/>
                 <div class="overlay">
                     <div class="content">
@@ -227,9 +227,32 @@
             if(value == 'all'){
                 $('.itemBox').show('1000');
             }
+            
             else{
                 $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000')
+                $('.itemBox').filter('.'+value).show('1000');
+            }
+        })
+        $('.list').click(function(){
+            const value2 = $(this).attr('data-filter2');
+            if(value == 'all'){
+                $('.itemBox').show('1000');
+            }
+            
+            else{
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+            }
+        })
+        $('.list').click(function(){
+            const value = $(this).attr('data-filter3');
+            if(value == 'all'){
+                $('.itemBox').show('1000');
+            }
+            
+            else{
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
             }
         })
         $('.list').click(function(){
@@ -292,23 +315,21 @@
     
     function serviceSort(sort){
         if(sort == 0){
-        element[0].innerHTML = " ";
+        element[0].innerHTML = "";
        }
        if(sort == 1){
-        element[0].innerHTML = "Wet utilities";
+        element[0].innerHTML = "Dry Utilities";
        }
        else if(sort == 2){
-        element0[0].innerHTML = "Utility Rehabilitation";
+        element0[0].innerHTML = "Wet utilities ";
        }
        else if(sort == 3){
-        element[0].innerHTML = "Dry Utilities";
+        element[0].innerHTML = "Pump & Pipe Services";
        }
        if(sort == 4){
         element[0].innerHTML = "Traffic Signals & Street Lights";
        }
-       else if(sort == 5){
-        element[0].innerHTML = "Pump & Pipe Services";
-       }
+       
     }
     
   </script>

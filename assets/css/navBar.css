@@ -16,7 +16,10 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
-    height: auto;
+}
+img.logo2{
+    object-fit: cover;
+    width: auto;
 }
 .navLinks{
     list-style: none;

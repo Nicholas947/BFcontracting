@@ -11,15 +11,20 @@ header{
     justify-content: flex-end;
     align-items: center;
     background-color: #53565A;
-    height: 100%;
+    height: auto;
 }
 .logo{
     cursor: pointer;
     margin-right: auto;
+    padding: 0px;
+    height: 100%;
 }
-img.logo2{
-    object-fit: cover;
+a img.logo2{
     width: auto;
+    height: 4vw;
+    margin: 0px;
+    padding: 0px;
+    
 }
 .navLinks{
     list-style: none;
@@ -34,10 +39,10 @@ ul{
 }
 
 
-.navLinks li a{
+.navLinks li a.nav{
     transition: all 0.3s ease 0s;
 }
-li a:hover{
+li a.nav:hover{
     color: red;
 }
 
@@ -76,7 +81,7 @@ section{
     padding: 20px;
     margin: 40px auto;
 }
-li a{
+li a.nav{
     display: block;
     padding: 10px;
     height:100%;

@@ -15,12 +15,12 @@
 <body> 
     <nav class="topNav">
         <header>
-            <a class="logo" href="index.html"><img class="logo2" href="index.html" src="assets/Logo Horizontal.jpg" alt="Logo Image" height="70px" width="70px" /></a>
+            <a class="logo" href="index.html"><img class="logo2" href="index.html" src="assets/Logo Horizontal.jpg" alt="Logo Image"  /></a>
             <nav class="navBar">
                 <div class="navLinks">
-                    <div class="projects"><a class ="nav">B&F Construction</a></div>
+                    <div class="projects"><a class ="nav">B&F CONSTRUCTION</a></div>
                     <div class="projects" >
-                        <a class="nav Expert" href="divisions.html">Expertise</a>
+                        <a class="nav" href="divisions.html">EXPERTISE</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="text()"  class="btn"><a class="li" href="divisions/wetUtilities.html">Wet Utilities</a></li>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <a class="nav" href="projects.html">Projects</a>
+                        <a class="nav" href="projects.html">PROJECTS</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="projects()"><a class="li" href="projects.html">All Projects</a></li>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <a class="nav" href="joinTheTeam/careers.html">Join The Team</a>
+                        <a class="nav" href="joinTheTeam/careers.html">JOIN THE TEAM</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="jobsearch()"><a class="li" href="joinTheTeam/search.html">Job Search</a></li>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="projects">
-                        <a class="nav" href="about/benefit.html">About</a>
+                        <a class="nav" href="about/benefit.html">ABOUT</a>
                         <div class="ul">
                             <ul>
                                 <li onmouseover="visions()"><a class="li" href="about/vision.html">Vision, Values, and Core Beliefs</a></li>
@@ -92,7 +92,7 @@
                      
                 </div>
             </nav>
-            <a class="contact" href="about/contact.html"><button class="contact2">Contact Me</button></a>
+            <a class="contact" href="about/contact.html"><button class="contact2">CONTACT US</button></a>
         </header>
     </nav>
 
@@ -126,14 +126,14 @@
                   <ul class="drop">
                     <li onclick="marketSort(0)" class="list active" data-filter2="all">All</li>
                     <li onclick="marketSort(1)" class="list" data-filter2="mD">Mission Critical & Data Centers</li>
-                    <li onclick="marketSort(2)" class="list" data-filter2="wet">Manufacturing</li>
+                    <li onclick="marketSort(2)" class="list" data-filter2="man">Manufacturing</li>
                     <li onclick="marketSort(3)" class="list" data-filter2="pAP">Municipal</li>
-                    <li onclick="marketSort(4)" class="list" data-filter2="tAS">Commercial</li>
-                    <li onclick="marketSort(5)" class="list" data-filter2="tAS">Education (K-12)</li>
-                    <li onclick="marketSort(6)" class="list" data-filter2="tAS">Higher Education</li>
-                    <li onclick="marketSort(7)" class="list" data-filter2="tAS">Aviation</li>
-                    <li onclick="marketSort(8)" class="list" data-filter2="tAS">Landfill</li>
-                    <li onclick="marketSort(9)" class="list" data-filter2="tAS">Mining & Pits</li>
+                    <li onclick="marketSort(4)" class="list" data-filter2="com">Commercial</li>
+                    <li onclick="marketSort(5)" class="list" data-filter2="ed">Education (K-12)</li>
+                    <li onclick="marketSort(6)" class="list" data-filter2="higherEd">Higher Education</li>
+                    <li onclick="marketSort(7)" class="list" data-filter2="Avi">Aviation</li>
+                    <li onclick="marketSort(8)" class="list" data-filter2="land">Landfill</li>
+                    <li onclick="marketSort(9)" class="list" data-filter2="mining">Mining & Pits</li>
                 </ul>
                 </div>
               </div>
@@ -222,38 +222,67 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript">
     $(document).ready(function(){
+        var check;
+        var check2;
+        var check3;
         $('.list').click(function(){
             const value = $(this).attr('data-filter');
-            if(value == 'all'){
+            if(value == 'all'  && check2 == true && check3 == true){
                 $('.itemBox').show('1000');
+                check = true;
             }
-            
-            else{
+            else if(value != "all"&& check2 == true && check3 == true){
                 $('.itemBox').not('.'+value).hide('1000');
                 $('.itemBox').filter('.'+value).show('1000');
+                check = false;
             }  
+            else if(value != "all"&& check2 == false && check3 == true){
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+                check = false;
+            } 
+            else if(value != "all"&& check2 == true && check3 == false){
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+                check = false;
+            } 
+            else{
+                $('.itemBox').filter('.dry').show('1000');
+                $('.itemBox').filter('.wet').show('1000');
+                $('.itemBox').filter('.pAP').show('1000');
+                $('.itemBox').filter('.tAS').show('1000');
+            }
+            return check;
+
         })
         $('.list').click(function(){
             const value2 = $(this).attr('data-filter2');
-            if(value == 'all'){
+            if(value2 == 'all' && check3 == true && check == true){
                 $('.itemBox').show('1000');
+                check2 = true;
             }
             
             else{
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
+                $('.itemBox').not('.'+value2).hide('1000');
+                $('.itemBox').filter('.'+value2).show('1000');
+                check2 = false;
             }
+            return check2;
         })
         $('.list').click(function(){
-            const value = $(this).attr('data-filter3');
-            if(value == 'all'){
+            const value3 = $(this).attr('data-filter3');
+            if(value3 == 'all' && check2 == true && check == true){
                 $('.itemBox').show('1000');
+                check3 = true;
             }
             
             else{
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
+                $('.itemBox').not('.'+value3).hide('1000');
+                $('.itemBox').filter('.'+value3).show('1000');
+                check3 = false;
             }
+            return check3;
+
         })
         $('.list').click(function(){
             $(this).addClass('active').siblings().removeClass('active');

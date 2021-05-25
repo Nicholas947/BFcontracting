@@ -7,6 +7,8 @@
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/navBar.css" rel="stylesheet" />
     <script src="src/test.js"></script>
+    <script src="src/project.js"></script>
+
 
     <link href="assets/css/projects.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpg">
@@ -107,11 +109,11 @@
             <div class="dropdown">  
                 <div class="dropdown-content">
                   <ul class="drop">
-                    <li onclick="serviceSort(0)" class="list active" data-filter="all">All</li>
-                    <li onclick="serviceSort(1)" class="list" data-filter="dry">Dry Utilities</li>
-                    <li onclick="serviceSort(2)" class="list" data-filter="wet">Wet Utilities</li>
-                    <li onclick="serviceSort(3)" class="list" data-filter="pAP">Pump & pipe</li>
-                    <li onclick="serviceSort(4)" class="list" data-filter="tAS">Traffic and Street</li>
+                    <li onclick="updateImages('All')" class="list active" data-filter="all">All</li>
+                    <li onclick="updateImages('Dry Utilities')" class="list" data-filter="dry">Dry Utilities</li>
+                    <li onclick="updateImages('Wet Utilities')" class="list" data-filter="wet">Wet Utilities</li>
+                    <li onclick="updateImages('Pump and Pipe')" class="list" data-filter="pAP">Pump & pipe</li>
+                    <li onclick="updateImages('Traffic And Street')" class="list" data-filter="tAS">Traffic and Street</li>
                 </ul>
                 </div>
               </div>
@@ -125,16 +127,16 @@
             <div class="dropdown">  
                 <div class="dropdown-content">
                   <ul class="drop">
-                    <li onclick="marketSort(0)" class="list active" data-filter2="all">All</li>
-                    <li onclick="marketSort(1)" class="list" data-filter2="mD">Mission Critical & Data Centers</li>
-                    <li onclick="marketSort(2)" class="list" data-filter2="man">Manufacturing</li>
-                    <li onclick="marketSort(3)" class="list" data-filter2="pAP">Municipal</li>
-                    <li onclick="marketSort(4)" class="list" data-filter2="com">Commercial</li>
-                    <li onclick="marketSort(5)" class="list" data-filter2="ed">Education (K-12)</li>
-                    <li onclick="marketSort(6)" class="list" data-filter2="higherEd">Higher Education</li>
-                    <li onclick="marketSort(7)" class="list" data-filter2="Avi">Aviation</li>
-                    <li onclick="marketSort(8)" class="list" data-filter2="land">Landfill</li>
-                    <li onclick="marketSort(9)" class="list" data-filter2="mining">Mining & Pits</li>
+                    <li onclick="updateImages(0)" class="list active" data-filter2="all">All</li>
+                    <li onclick="updateImages(1)" class="list" data-filter2="mD">Mission Critical & Data Centers</li>
+                    <li onclick="updateImages(2)" class="list">Manufacturing</li>
+                    <li onclick="updateImages(3)" class="list">Municipal</li>
+                    <li onclick="updateImages(4)" class="list">Commercial</li>
+                    <li onclick="updateImages(5)" class="list">Education (K-12)</li>
+                    <li onclick="updateImages(6)" class="list">Higher Education</li>
+                    <li onclick="updateImages(7)" class="list">Aviation</li>
+                    <li onclick="updateImages(8)" class="list">Landfill</li>
+                    <li onclick="updateImages(9)" class="list">Mining & Pits</li>
                 </ul>
                 </div>
             </div>
@@ -148,12 +150,12 @@
             <div class="dropdown">  
                 <div class="dropdown-content">
                   <ul class="drop">
-                    <li onclick="methodSort(0)" class="list active" data-filter3="all">All</li>
-                    <li onclick="methodSort(1)" class="list" data-filter3="dry">Design Bid Build</li>
-                    <li onclick="methodSort(2)" class="list" data-filter3="wet">JOC</li>
-                    <li onclick="methodSort(3)" class="list" data-filter3="pAP">CMAR</li>
-                    <li onclick="methodSort(4)" class="list" data-filter3="tAS">Hard Bid</li>
-                    <li onclick="methodSort(5)" class="list" data-filter3="pAP">Emergency Response Work</li>
+                    <li onclick="updateImages('All')" class="list active">All</li>
+                    <li onclick="updateImages('Design Bid Build')" class="list">Design Bid Build</li>
+                    <li onclick="updateImages('JOC')" class="list">JOC</li>
+                    <li onclick="updateImages('CMAR')" class="list" >CMAR</li>
+                    <li onclick="updateImages('Hard Bid')" class="list">Hard Bid</li>
+                    <li onclick="updateImages('Emergency Response Work')" class="list">Emergency Response Work</li>
                 </ul>
                 </div>
               </div>
@@ -161,7 +163,8 @@
         </div>
        
         <div class="product">
-            <div class="itemBox dry mD image">
+
+            <!-- <div class="itemBox dry mD image">
                 <img class="img" src="assets/Frontcover2.jpg"/>
                 <div class="overlay">
                     <div class="content">
@@ -215,7 +218,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <script
@@ -223,95 +226,11 @@
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
-        var check;
-        var check2;
-        var check3;
-        let value = $(this).attr('data-filter');
-        let value2 = $(this).attr('data-filter2');
-        let value3 = $(this).attr('data-filter3');
-
-        $('.list').click(function(){
-            if(value == 'all'  && check2 == true && check3 == true){
-                $('.itemBox').show('1000');
-                check = true;
-            }
-            else if(value != "all"&& check2 == true && check3 == true){
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            }  
-            else if(value != "all"&& check2 == false && check3 == true){
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            } 
-            else if(value != "all"&& check2 == true && check3 == false){
-                $('.itemBox').not('.'+value3).hide('1000');
-                $('.itemBox').filter('.'+value3).show('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            } 
-
-            if(value == 'all'  && check2 == true && check3 == true){
-                $('.itemBox').show('1000');
-                check = true;
-            }
-            else if(value != "all"&& check2 == true && check3 == true){
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            }  
-            else if(value != "all"&& check2 == false && check3 == true){
-                $('.itemBox').not('.'+value).hide('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            } 
-            else if(value != "all"&& check2 == true && check3 == false){
-                $('.itemBox').not('.'+value3).hide('1000');
-                $('.itemBox').filter('.'+value3).show('1000');
-                $('.itemBox').filter('.'+value).show('1000');
-                check = false;
-            } 
-
-            return check;
-
-        })
-        let value2 = $(this).attr('data-filter2');
-
-        $('.list').click(function(){
-            if(value2 == 'all' && check3 == true && check == true){
-                $('.itemBox').show('1000');
-                check2 = true;
-            }
-            
-            else{
-                $('.itemBox').not('.'+value2).hide('1000');
-                $('.itemBox').filter('.'+value2).show('1000');
-                check2 = false;
-            }
-            return check2;
-        })
-        let value3 = $(this).attr('data-filter3');
-
-        $('.list').click(function(){
-            if(value3 == 'all' && check2 == true && check == true){
-                $('.itemBox').show('1000');
-                check3 = true;
-            }
-            
-            else{
-                $('.itemBox').not('.'+value3).hide('1000');
-                $('.itemBox').filter('.'+value3).show('1000');
-                check3 = false;
-            }
-            return check3;
-
-        })
-        $('.list').click(function(){
-            $(this).addClass('active').siblings().removeClass('active');
-        })
-    })
+  $(document).ready(function(){
+    $('.list').click(function(){
+      $(this).addClass('active').siblings().removeClass('active')
+  })
+  })
     var element = document.getElementsByClassName("dropbtn");
     function marketSort(sort){
         if(sort == 0){

@@ -225,8 +225,11 @@
         var check;
         var check2;
         var check3;
+        let value = $(this).attr('data-filter');
+        let value2 = $(this).attr('data-filter2');
+        let value3 = $(this).attr('data-filter3');
+
         $('.list').click(function(){
-            const value = $(this).attr('data-filter');
             if(value == 'all'  && check2 == true && check3 == true){
                 $('.itemBox').show('1000');
                 check = true;
@@ -242,21 +245,39 @@
                 check = false;
             } 
             else if(value != "all"&& check2 == true && check3 == false){
+                $('.itemBox').not('.'+value3).hide('1000');
+                $('.itemBox').filter('.'+value3).show('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+                check = false;
+            } 
+
+            if(value == 'all'  && check2 == true && check3 == true){
+                $('.itemBox').show('1000');
+                check = true;
+            }
+            else if(value != "all"&& check2 == true && check3 == true){
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+                check = false;
+            }  
+            else if(value != "all"&& check2 == false && check3 == true){
                 $('.itemBox').not('.'+value).hide('1000');
                 $('.itemBox').filter('.'+value).show('1000');
                 check = false;
             } 
-            else{
-                $('.itemBox').filter('.dry').show('1000');
-                $('.itemBox').filter('.wet').show('1000');
-                $('.itemBox').filter('.pAP').show('1000');
-                $('.itemBox').filter('.tAS').show('1000');
-            }
+            else if(value != "all"&& check2 == true && check3 == false){
+                $('.itemBox').not('.'+value3).hide('1000');
+                $('.itemBox').filter('.'+value3).show('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+                check = false;
+            } 
+
             return check;
 
         })
+        let value2 = $(this).attr('data-filter2');
+
         $('.list').click(function(){
-            const value2 = $(this).attr('data-filter2');
             if(value2 == 'all' && check3 == true && check == true){
                 $('.itemBox').show('1000');
                 check2 = true;
@@ -269,8 +290,9 @@
             }
             return check2;
         })
+        let value3 = $(this).attr('data-filter3');
+
         $('.list').click(function(){
-            const value3 = $(this).attr('data-filter3');
             if(value3 == 'all' && check2 == true && check == true){
                 $('.itemBox').show('1000');
                 check3 = true;

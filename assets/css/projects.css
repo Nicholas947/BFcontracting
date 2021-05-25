@@ -33,7 +33,7 @@ section ul li.active{
 }
 .product .itemBox{
     position: relative;
-    width: 340px;
+    width: 370px;
     height: 300px;
     margin: 5px;
 }
@@ -151,7 +151,6 @@ section ul li.active{
       margin: auto;
       padding: 0px 10px 0px 5px;
     font-size: 1vw;
-    background-color: #53565A;
     padding:  16px;
 
   }

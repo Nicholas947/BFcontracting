@@ -11,7 +11,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     background-color: #53565A;
-    height: auto;
+    height: 100%;
 }
 .logo{
     cursor: pointer;
@@ -54,6 +54,7 @@ li a.nav:hover{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    text-decoration: underline;
 }
 button.contact2:hover{
     background-color: rgba(255, 255, 255, 0.8);
@@ -70,7 +71,7 @@ footer{
 
 
 .itemBox{
-    width: 1280px;
+    width: 1260px;
 }
 #img{
     width: 200px;
@@ -91,25 +92,23 @@ li a{
 }
 ul{
     width: 100%;
-    background: gray;
-
 }
 .projects .ul,
 .products .ul{
     text-align: center;
 position: absolute;
+background: red;
 display: flex;
 align-items: center;
 width: 400%;
-border-radius: 1px;
+border-radius: 5px;
 pointer-events: none;
 transform: translateX(-50%);
 box-shadow: 0px 0px 11px 3px black;
 box-shadow: 3px 3px 9px;
 z-index: 10;
 opacity: 0;
-background: #53565A;
-
+margin-top: 1.4vw;
 /* width and height if needed */
 }
  .projects a.nav{
@@ -118,8 +117,6 @@ background: #53565A;
     text-decoration: underline;
     text-align: center;
     justify-content: center;
-    width: auto;
-    margin: 0px;
 }
 
 .projects li,
@@ -142,18 +139,24 @@ background: #53565A;
 }
 
 
-.nav{
-    width: 120px;
-    
+#team{
+    width: 1vw;
+    text-align: center;
+    justify-content: center;
 }
-
-
+#team2{
+    white-space: nowrap;
+}
+.nav{
+    width: auto;
+    margin: 0px 10px;
+}
 
 .listItem{
     justify-content: center;
     margin: auto;
     align-items: center;
-    width: 1280px;
+    width: 1390px;
 }
 a.nav:hover{
     color: red;
@@ -167,3 +170,13 @@ a.nav:hover{
 }
 
 
+.product{
+    margin: auto;
+    justify-content: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}

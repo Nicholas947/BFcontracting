@@ -23,17 +23,22 @@ html{
 }
 @keyframes animate{
     0%, 100%{
-        background-image: url(../frontCover.jpg);
-        opacity: .9;
+        background-image: url(../Homepage_Scroll/Homepage\ Scroller\ 1.jpg);
+        opacity: 1;
 
     }
-    33%{
-        background-image: url(../Frontcover2.jpg);
-        opacity: .9;
+    25%{
+        background-image: url(../Homepage_Scroll/Homepage\ Scroller\ 2.jpg);
+        opacity: 1;
     }
-    66%{
-        background-image: url(../frontCover3.jpg);
-        opacity: .9;
+    50%{
+        background-image: url(../Homepage_Scroll/Homepage\ Scroller\ 3.jpg);
+        opacity: 1;
+
+    }
+    75%{
+        background-image: url(../Homepage_Scroll/Homepage\ Scroller\ 4.jpg);
+        opacity: 1;
 
     }
     
@@ -82,5 +87,5 @@ a#headers{
     text-decoration: underline;
 }
 body{
-    margin-top: 3.7%;
+    margin-top: 6%;
 }

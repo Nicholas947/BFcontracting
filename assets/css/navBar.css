@@ -91,6 +91,7 @@ li a{
 }
 ul{
     width: 100%;
+    background: gray;
 
 }
 .projects .ul,

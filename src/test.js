@@ -1,27 +1,35 @@
 function text(){
-    document.getElementById('text').innerHTML = "ojhmdcwiuhrig";
+    document.getElementById('servicePic').src  = "assets/Division_Tiles/Wet Utilities.jpg"
+    document.getElementById('text').innerHTML  = "Wet utilities"
 }
 function UtilityRehab(){
-    document.getElementById('text').innerHTML = "HI"
+    document.getElementById('servicePic').src  = "assets/Division_Tiles/Utility Rehabilitation.jpg"
+    document.getElementById('text').innerHTML  = "Utility Rehab"
 
 }
 function dryUt(){
-    document.getElementById('text').innerHTML = "Dry utilities"
-
+    document.getElementById('servicePic').src  = "assets/Division_Tiles/Dry Utilities.jpg"
+    document.getElementById('text').innerHTML  = "Dry utilities"
 }
 function traffic_street(){
-    document.getElementById('text').innerHTML = "straffic and street lights"
+    document.getElementById('servicePic').src  = "assets/Division_Tiles/Traffic Signals.jpeg"
+    document.getElementById('text').innerHTML  = "Traffic and street"
 
 }
 function pump_pipe(){
-    document.getElementById('text').innerHTML = "Pump and pipe services"
+    document.getElementById('servicePic').src  = "assets/Division_Tiles/Pump & Pipe.jpg"
+    document.getElementById('text').innerHTML  = "Service decription"
 
 }
 function projects(){
-    document.getElementById('text2').innerHTML = "Projects"
+    document.getElementById('projectPic').src  = "assets/General Picture Auger Drill.jpg"
+    document.getElementById('text2').innerHTML  = "These are all the projects to be displayed"
 
 }function services(){
-    document.getElementById('text2').innerHTML = "services"
+    document.getElementById('projectPic').src  = ""
+    document.getElementById('text2').innerHTML  = "Service decription"
+
+
 
 }function markets(){
     document.getElementById('text2').innerHTML = "markets"

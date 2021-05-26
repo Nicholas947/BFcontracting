@@ -25,7 +25,7 @@ const allPhotos = [
     url: "assets/Website_Photos/Project Tiles/Thomas Rd Slipline/6.JPG",
   },
   {
-    photoTitle: "thirdPhoto",
+    photoTitle: "fourthPhoto",
     photoDescription: "my Descriptions!!",
     filter1: "Dry Utilities",
     filter2: "Landfill",
@@ -33,7 +33,7 @@ const allPhotos = [
     url: "assets/frontCover3.jpg",
   },
   {
-    photoTitle: "thirdPhoto",
+    photoTitle: "fifthphoto",
     photoDescription: "my Descriptions!!",
     filter1: "Dry Utilities",
     filter2: "Landfill",

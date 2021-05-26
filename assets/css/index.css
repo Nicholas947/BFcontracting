@@ -91,12 +91,7 @@ a#headers{
     font-size: 20px;
     text-decoration: underline;
 }
-body{
-    margin-top: 5%;
-}
+
 .imgLink{
     height: 25vw;
-}
-.list:active{
-    
 }

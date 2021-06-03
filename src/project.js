@@ -4,7 +4,7 @@ const allPhotos = [
     photoTitle: "firstPhoto",
     photoDescription: "my Descriptions!!",
     filter1: "Wet Utilities",
-    filter2: "",
+    filter2: "Commercial",
     filter3: "JOC",
     url: "assets/frontCover.jpg",
   },
@@ -49,13 +49,20 @@ const testCriteria3 = ["2021", "winter", "office"];
 
 let criteria = []
 
+
 const updateImages = (newCriteria) => {
-  criteria.push(newCriteria);
+  const outputContainer = document.getElementsByClassName('product')[0];
+  var blank = ``;
+  outputContainer.innerHTML = "";
+  criteria.push(newCriteria)
+  
+
   const displayPhotos = setPhotos(criteria, allPhotos);
-  let imgLayout = ``
+  let imgLayout = ""
+  if(document.querySelectorAll('#accept:checked') !== null){
   displayPhotos.forEach(photo => {
     imgLayout += `
-  <div class="itemBox dry mD image">
+  <div class="itemBox image">
                 <img class="img" src="${photo.url}"/>
                 <div class="overlay">
                     <div class="content">
@@ -68,10 +75,72 @@ const updateImages = (newCriteria) => {
             </div>
   `
   });
+  outputContainer.innerHTML = imgLayout;
+  }
+   else if(document.querySelectorAll('#accept:unchecked') !== null){
+    
+    
+outputContainer.innerHTML = ` <div class="itemBox dry mD image">
+<img class="img" src="assets/Frontcover2.jpg"/>
+<div class="overlay">
+    <div class="content">
+        <div class="imageTitle">Project name</div>
+        <p class="imageDescription">
+            Project description
+        </p>
+    </div>
+</div>
+</div>
+<div class="itemBox tAS image">
+<img class="img" src="assets/logo.jpg"/>
+<div class="overlay">
+    <div class="content">
+        <div class="imageTitle">Project name</div>
+        <p class="imageDescription">
+            Project description
+        </p>
+    </div>
+</div>
+</div>
+<div class="itemBox wet image">
+<img class="img" src="assets/frontCover3.jpg"/>
+<div class="overlay">
+    <div class="content">
+        <div class="imageTitle">Project name</div>
+        <p class="imageDescription">
+            Project description
+        </p>
+    </div>
+</div>
+</div>
+<div class="itemBox pAP se image">
+<img class="img" src="assets/frontCover.jpg"/>
+<div class="overlay">
+    <div class="content">
+        <div class="imageTitle">Project name</div>
+        <p class="imageDescription">
+            Project description
+        </p>
+    </div>
+</div>
+</div>
+<div class="itemBox tAS image">
+<img class="img" src="assets/templateHolder.jpg"/>
+<div class="overlay">
+    <div class="content">
+        <div class="imageTitle">Project name</div>
+        <p class="imageDescription">
+            Project description
+        </p>
+    </div>
+</div>
+</div> `;
 
-  const outputContainer = document.getElementsByClassName('product')[0]
-  outputContainer.innerHTML = imgLayout
+
+  }
+
 }
+
 
 // Filters out photos that match no criteria, will not filter photos that match 1 criteria but fail another
 const setPhotos = (

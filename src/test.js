@@ -24,18 +24,25 @@ function pump_pipe(){
 function projects(){
     document.getElementById('projectPic').src  = "assets/General Picture Auger Drill.jpg"
     document.getElementById('text2').innerHTML  = "These are all the projects to be displayed"
+    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
+
 
 }function services(){
-    document.getElementById('projectPic').src  = ""
-    document.getElementById('text2').innerHTML  = "Service decription"
+    document.getElementById('projectPic').src  = "assets/General Picture Auger Drill.jpg"
+    document.getElementById('text2').innerHTML  = "-breakdowns" + `<br>` + "more";
+    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
 
 
 
 }function markets(){
     document.getElementById('text2').innerHTML = "markets"
+    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
+
 
 }function delivery(){
     document.getElementById('text2').innerHTML = "delivery methods"
+    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
+
 
 }function jobsearch(){
     document.getElementById('text3').innerHTML = "Looking for a job?"
@@ -64,4 +71,24 @@ function history(){
 function meetTheTeam(){
     document.getElementById('text4').innerHTML = "Meet our amazing staff"
 
+}
+
+
+function placeText(date){
+    if(date == "2017"){
+        document.getElementById("allText").innerHTML = `<h2 id="historyText">
+        May 8, 2017
+    </h2>
+    <p>
+        dahbsjdiuas
+    </p>`
+    }
+    if(date == "2018"){
+        document.getElementById("allText").innerHTML = `<h2 id="historyText">
+        January 28, 2018
+    </h2>
+    <p>
+        Here is some text of the date
+    </p>`
+    }
 }

@@ -1,57 +1,11 @@
 
-.photos{
-    display: flex;
-    margin: auto;
-    align-items: center; /* Align Items Vertically */
-  justify-content: space-between;
-    flex-wrap: wrap;
-}
-.image{
-    position: relative;
-    width: 500px;
-
-} 
-img.leader{
-display: block;
-width: 100%;
-
-}
-
-input{
-  display: block
-}
-.list{
-  color: black;
-}
-section{
-  padding: 20px;
-  width: 1280px;
-  margin: 40px auto;
-}
-section ul{
-  display: flex;
-  margin-bottom: 10px;
-}
-section ul li{
-  list-style: none;
-  background: #eee;
-  padding: 8px 20px;
-  margin: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
-section ul li.active{
-  background: #03a9f4;
-  color: #fff;
-}
 .product{
   display: flex;
   flex-wrap: wrap;
 }
 .product .itemBox{
   position: relative;
-  width: 450px;
+  width: 500px;
   height: 300px;
   margin: 5px;
 }
@@ -73,35 +27,31 @@ section ul li.active{
   width: 100%;
 
 }
+.content{
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  width: 100%;
+  font-size: 14px;
+}
 .overlay{
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, .6);
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
   color: #ffffff;
   display: flex;
   font-family: 'Quicksand' sans-serif;
   flex-direction: column;
-  vertical-align: middle;
-  opacity: 0;
   transition: opacity 0.3s;
 }
-.overlay:hover{
-  opacity: 1;
-}
+
 /* adds the go in and out of the text */
-.overlay > *{
-  transform: translateY(20px);
-  transition: transform 0.25s;
-}
 
-.overlay:hover > *{
-  transform: translateY(0px);
 
-}
 /*     ------------------------  */
 .imageTitle{
   font-size: 2em;
@@ -110,4 +60,16 @@ section ul li.active{
 .imageDescription{
   font-size: 1.25em;
   margin-top: 0.25em;
+}
+body{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+footer{
+  position:fixed;
+   bottom:0;
+   width:100%;
+   
 }

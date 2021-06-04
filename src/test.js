@@ -2,9 +2,18 @@ function text(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Wet Utilities.jpg"
     document.getElementById('text').innerHTML  = "Wet utilities"
 }
+function text1(){
+    document.getElementById('servicePic1').src  = "assets/Division_Tiles/Wet Utilities.jpg"
+    document.getElementById('text0').innerHTML  = "Wet utilities"
+}
 function UtilityRehab(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Utility Rehabilitation.jpg"
     document.getElementById('text').innerHTML  = "Utility Rehab"
+
+}
+function UtilityRehab1(){
+    document.getElementById('servicePic1').src  = "assets/Division_Tiles/Utility Rehabilitation.jpg"
+    document.getElementById('text0').innerHTML  = "Utility Rehab"
 
 }
 function dryUt(){
@@ -19,6 +28,20 @@ function traffic_street(){
 function pump_pipe(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Pump & Pipe.jpg"
     document.getElementById('text').innerHTML  = "Service decription"
+
+}
+function dryUt1(){
+    document.getElementById('servicePic1').src  = "assets/Division_Tiles/Dry Utilities.jpg"
+    document.getElementById('text0').innerHTML  = "Dry utilities"
+}
+function traffic_street1(){
+    document.getElementById('servicePic1').src  = "assets/Division_Tiles/Traffic Signals.jpeg"
+    document.getElementById('text0').innerHTML  = "Traffic and street"
+
+}
+function pump_pipe1(){
+    document.getElementById('servicePic1').src  = "assets/Division_Tiles/Pump & Pipe.jpg"
+    document.getElementById('text0').innerHTML  = "Service decription"
 
 }
 function projects(){

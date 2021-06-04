@@ -221,4 +221,8 @@ section ul li.active{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
+  #expertise{
+    text-align: center;
+    justify-content: center;
+    margin: auto 20%;
+}

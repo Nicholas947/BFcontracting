@@ -185,8 +185,8 @@ html{
 }
 .contain{
     width: 100%;
-    margin-left: 1vw;
-    height: 7vw;
+    padding: 20px 10%;
+    height: 16vw;
 }
 .contact{
     text-decoration: underline;
@@ -207,5 +207,4 @@ html{
 .header{
     width: 100%;
     justify-content: center;
-    margin-left: 1vw;
 }

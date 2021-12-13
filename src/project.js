@@ -63,7 +63,7 @@ const updateImages = (newCriteria) => {
   displayPhotos.forEach(photo => {
     imgLayout += `
   <div class="itemBox image">
-                <img class="img" src="${photo.url}"/>
+                <img class="img" src="../${photo.url}"/>
                 <div class="overlay">
                     <div class="content">
                         <div class="imageTitle">${photo.photoTitle}</div>
@@ -75,72 +75,31 @@ const updateImages = (newCriteria) => {
             </div>
   `
   });
-  outputContainer.innerHTML = imgLayout;
-  }
-   else if(document.querySelectorAll('#accept:unchecked') !== null){
-    
-    
-outputContainer.innerHTML = ` <div class="itemBox dry mD image">
-<img class="img" src="assets/Frontcover2.jpg"/>
-<div class="overlay">
-    <div class="content">
-        <div class="imageTitle">Project name</div>
-        <p class="imageDescription">
-            Project description
-        </p>
-    </div>
-</div>
-</div>
-<div class="itemBox tAS image">
-<img class="img" src="assets/logo.jpg"/>
-<div class="overlay">
-    <div class="content">
-        <div class="imageTitle">Project name</div>
-        <p class="imageDescription">
-            Project description
-        </p>
-    </div>
-</div>
-</div>
-<div class="itemBox wet image">
-<img class="img" src="assets/frontCover3.jpg"/>
-<div class="overlay">
-    <div class="content">
-        <div class="imageTitle">Project name</div>
-        <p class="imageDescription">
-            Project description
-        </p>
-    </div>
-</div>
-</div>
-<div class="itemBox pAP se image">
-<img class="img" src="assets/frontCover.jpg"/>
-<div class="overlay">
-    <div class="content">
-        <div class="imageTitle">Project name</div>
-        <p class="imageDescription">
-            Project description
-        </p>
-    </div>
-</div>
-</div>
-<div class="itemBox tAS image">
-<img class="img" src="assets/templateHolder.jpg"/>
-<div class="overlay">
-    <div class="content">
-        <div class="imageTitle">Project name</div>
-        <p class="imageDescription">
-            Project description
-        </p>
-    </div>
-</div>
-</div> `;
-
+  
 
   }
+  else if(document.querySelectorAll('#accept:checked') == null){
+    displayPhotos.forEach(photo => {
+      imgLayout -= `
+    <div class="itemBox image">
+                  <img class="img" src="../${photo.url}"/>
+                  <div class="overlay">
+                      <div class="content">
+                          <div class="imageTitle">${photo.photoTitle}</div>
+                          <p class="imageDescription">
+                              ${photo.photoDescription}
+                          </p>
+                      </div>
+                  </div>
+              </div>
+    `
+    });
+    
+    
 
 }
-
+outputContainer.innerHTML = imgLayout;
+}
 
 // Filters out photos that match no criteria, will not filter photos that match 1 criteria but fail another
 const setPhotos = (

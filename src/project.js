@@ -1,44 +1,76 @@
 // Each photo title must be unique!!
 const allPhotos = [
   {
-    photoTitle: "firstPhoto",
-    photoDescription: "my Descriptions!!",
+    photoTitle: "CUSD Highschool",
+    photoDescription: "RWCD Lateral 16-1/2",
+    filter1: "Wet Utilities",
+    filter2: "Education",
+    filter3: "Hard Bid",
+    url: "assets/Project_Tiles/CUSD/Project_Tile.jpg",
+  },
+  {
+    photoTitle: "Granite Reef",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Dry Utilities",//more data
+    filter2: "Landfill",//more data
+    filter3: "JOC",//more data
+    url: "assets/Project_Tiles/Granite Reef/Project_Tile.JPG",
+  },
+  {
+    photoTitle: "Hyatt Place Downtown",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Dry Utilities",
+    filter2: "Commercial",
+    filter3: "Hard Bid",
+    url: "assets/Project_Tiles/Hyatt Place Downtown/Project_Tile.CR2",
+  },
+  {
+    photoTitle: "Nationwide Building Scottsdale Campus",
+    photoDescription: "my Descriptions!!",//more data
     filter1: "Wet Utilities",
     filter2: "Commercial",
-    filter3: "JOC",
-    url: "assets/frontCover.jpg",
+    filter3: "Hard Bid",
+    url: "assets/Project_Tiles/Nationwide/Project_Tile.jpg",
   },
   {
-    photoTitle: "secondPhoto",
-    photoDescription: "my Descriptions!!",
+    photoTitle: "Old Nogales Interceptor",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Wet Utilities",
+    filter2: "Municipal",
+    filter3: "CMAR Joint",
+    url: "assets/Project_Tiles/Old Nogales Interceptor/Project_Tile.jpg",
+  },
+  {
+    photoTitle: "PVC Lined Concrete Sanitary Sewer Rehabilitation",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Utility Rehabilitation",
+    filter2: "Municipal",
+    filter3: "CMAR",
+    url: "assets/Project_Tiles/PVC Rehab/Project_Tile.JPG",
+  },
+  {
+    photoTitle: "SROG Salt River Outfall Interceptor Rehabilitation",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Utility Rehabilitation",
+    filter2: "Aviation",
+    filter3: "CMAR Joint",
+    url: "assets/Project_Tiles/SROG Project E/Project_Tile.JPG",
+  },
+  {
+    photoTitle: "Thomas Road Transmission Main Rehabilitation",
+    photoDescription: "my Descriptions!!",//more data
+    filter1: "Utility Rehabilitation",
+    filter2: "Municipal",
+    filter3: "CMAR",
+    url: "assets/Project_Tiles/Thomas Rd Slipline/Project_Tile.JPG",
+  },
+  {
+    photoTitle: "Whiteclaw Super Feeders",
+    photoDescription: "my Descriptions!!",//more data
     filter1: "Dry Utilities",
-    filter2: "Landfill",
-    filter3: "JOC",
-    url: "assets/Frontcover2.jpg",
-  },
-  {
-    photoTitle: "thirdPhoto",
-    photoDescription: "my Descriptions!!",
-    filter1: "Pump and Pipe",
-    filter2: "Landfill",
-    filter3: "JOC",
-    url: "assets/Website_Photos/Project Tiles/Thomas Rd Slipline/6.JPG",
-  },
-  {
-    photoTitle: "fourthPhoto",
-    photoDescription: "my Descriptions!!",
-    filter1: "Dry Utilities",
-    filter2: "Landfill",
-    filter3: "JOC",
-    url: "assets/frontCover3.jpg",
-  },
-  {
-    photoTitle: "fifthphoto",
-    photoDescription: "my Descriptions!!",
-    filter1: "Dry Utilities",
-    filter2: "Landfill",
-    filter3: "JOC",
-    url: "assets/logo.jpg",
+    filter2: "Manufacturing",
+    filter3: "Hard Bid",
+    url: "assets/Project_Tiles/Whiteclaw/Project_Tile.jpg",
   },
 ];
 

@@ -95,7 +95,7 @@ const updateImages = (newCriteria) => {
   displayPhotos.forEach(photo => {
     imgLayout += `
   <div class="itemBox image">
-                <img class="img" src="../${photo.url}"/>
+                <img class="img" src="${photo.url}"/>
                 <div class="overlay">
                     <div class="content">
                         <div class="imageTitle">${photo.photoTitle}</div>
@@ -114,7 +114,7 @@ const updateImages = (newCriteria) => {
     displayPhotos.forEach(photo => {
       imgLayout -= `
     <div class="itemBox image">
-                  <img class="img" src="../${photo.url}"/>
+                  <img class="img" src="${photo.url}"/>
                   <div class="overlay">
                       <div class="content">
                           <div class="imageTitle">${photo.photoTitle}</div>

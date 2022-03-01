@@ -62,7 +62,7 @@ const allPhotos = [
     filter1: "Utility Rehabilitation",
     filter2: "Municipal",
     filter3: "CMAR",
-    url: "assets/Project_Tiles/Thomas Rd Slipline/Project_Tile.JPG",
+    url: "assets/Project_Tiles/Thomas_Rd_Slipline/Project_Tile.JPG",
   },
   {
     photoTitle: "Whiteclaw Super Feeders",

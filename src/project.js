@@ -43,7 +43,7 @@ const allPhotos = [
   {
     photoTitle: "PVC Lined Concrete Sanitary Sewer Rehabilitation",
     photoDescription: "my Descriptions!!",//more data
-    filter1: "Utility Rehabilitation",
+    filter1: "Pump and Pipe",
     filter2: "Municipal",
     filter3: "CMAR",
     url: "assets/Project_Tiles/PVC Rehab/Project_Tile.JPG",
@@ -51,7 +51,7 @@ const allPhotos = [
   {
     photoTitle: "SROG Salt River Outfall Interceptor Rehabilitation",
     photoDescription: "my Descriptions!!",//more data
-    filter1: "Utility Rehabilitation",
+    filter1: "Pump and Pipe",
     filter2: "Aviation",
     filter3: "CMAR Joint",
     url: "assets/Project_Tiles/SROG Project E/Project_Tile.JPG",
@@ -59,7 +59,7 @@ const allPhotos = [
   {
     photoTitle: "Thomas Road Transmission Main Rehabilitation",
     photoDescription: "my Descriptions!!",//more data
-    filter1: "Utility Rehabilitation",
+    filter1: "Pump and Pipe",
     filter2: "Municipal",
     filter3: "CMAR",
     url: "assets/Project_Tiles/Thomas_Rd_Slipline/Project_Tile.JPG",

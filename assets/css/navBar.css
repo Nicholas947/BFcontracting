@@ -24,7 +24,7 @@ a img.logo2{
     width: auto;
     margin: 0px;
     padding: 0px;
-height: 4.2vw;    
+height: 4vw;    
 }
 .navLinks{
     display: flex;
@@ -215,5 +215,8 @@ html{
     height: 100%;
 }
 #servicePic1{
+    width: 300px;
+}
+#servicePic{
     width: 300px;
 }

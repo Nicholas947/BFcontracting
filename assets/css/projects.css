@@ -10,9 +10,7 @@ section{
     width: 100%;
     margin: 30px 0px;
 }
-section ul{
 
-}
 section ul li{
     list-style: none;
     background: #eee;
@@ -68,6 +66,8 @@ section ul li.active{
     align-items: baseline;
     opacity: 0;
     transition: opacity 0.3s;
+    text-align:center;
+
     
 }
 .overlay:hover{
@@ -94,10 +94,11 @@ section ul li.active{
     margin-top: 0.25em;
 }
 .content{
+  width: 100%;
+    bottom: 0%;
     position: absolute;
     bottom: 0px;
-    text-align: center;
-    left: 32%;
+    left: auto;
 
 } 
 

@@ -59,7 +59,7 @@ const allPhotos = [
   {
     photoTitle: "Thomas Road Transmission Main Rehabilitation",
     photoDescription: "my Descriptions!!",//more data
-    filter1: "Pump and Pipe",
+    filter1: "`Pump and Pipe`",
     filter2: "Municipal",
     filter3: "CMAR",
     url: "../assets/Project_Tiles/Thomas_Rd_Slipline/Project_Tile.JPG",

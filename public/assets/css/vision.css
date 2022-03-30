@@ -1,0 +1,26 @@
+body{
+    padding-top: 5%;
+}
+#pad{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+#pad p{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#statement{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}

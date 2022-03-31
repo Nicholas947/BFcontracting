@@ -183,6 +183,7 @@ html{
 .color{
     background-color: gray;
     width: 140px;
+
 }
 .contain{
     width: 100%;
@@ -210,12 +211,17 @@ html{
     justify-content: center;
     height: fit-content;
 }
-#lister{
-    height: 100%;
+.lister{
+    height: fit-content;
 }
 #servicePic1{
     width: 300px;
+    height: 250px;
 }
 #servicePic{
     width: 300px;
+}
+#servicePic2{
+    width: 300px;
+    height: 275px;
 }

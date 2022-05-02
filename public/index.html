@@ -7,9 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/reset.css" type="text/css" rel="stylesheet" />
-    <link href="assets/css/navBar.css" type="text/css" rel="stylesheet" />
-    <link href="assets/css/index.css" type="text/css"rel="stylesheet" />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/navBar.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
     <script src="src/test.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpg">
@@ -19,18 +19,98 @@
 <body>
     <nav class="topNav">
         <header>
-            <a class="logo" href="index.html" style="width:auto"><img class="logo2" href="index.html" src="assets/Logo Horizontal.jpg"
+            <a class="logo" href="index.html"><img class="logo2" href="index.html" src="assets/Logo Horizontal.jpg"
                     alt="Logo Image" /></a>
-                    <h1 style="margin: auto; text-align: center;font-size:1cm; position: absolute; top: 25%; left:38%;align-content: center; color: white;">Currently Under Construction</h1>
             <nav class="navBar">
                 <div class="navLinks">
                     <div class="projects"><a href="index.html" class="nav" id="team5">B&F CONTRACTING</a></div>
-                   
+                    <div class="projects">
+                        <a class="nav" id="team4" href="divisions.html">EXPERTISE</a>
+                        <div class="ul">
+                            <div class="lister">
+                                <ul class="color">
+                                    <li onmouseover="text()" class="btn"><a class="li"
+                                            href="projects.html">Wet Utilities</a></li>
+                                    <li onmouseover="UtilityRehab()" class="btn"><a class="li"
+                                            href="projects.html">Utility Rehabilitation</a></li>
+                                    <li onmouseover="dryUt()" class="btn"><a class="li"
+                                            href="projects.html">Dry Utilities</a></li>
+                                    <li onmouseover="traffic_street()" class="btn"><a class="li"
+                                            href="projects.html">Traffic Signals & Street lights</a>
+                                    </li>
+                                    <li onmouseover="pump_pipe()" class="btn"><a class="li"
+                                            href="projects.html">Pump & Pipe Services</a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="listItem">
+                                <div class="center">
+                                    <h1 class="header" id="header">Utility Rehabilitation</h1>
+
+                                    <img class="contain" src="assets/General Picture Auger Drill.jpg" id="servicePic">
+                                    
+                                    <p id="text">
+                                        
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <a class="nav" id="team3" href="projects.html">PROJECTS</a>
+                        <div class="ul" id="padding">
+                            <div class="lister">
+                                <ul class="color" id="project">
+                                    <li onmouseover="projects()"><a class="li" href="projects.html">All Projects</a>
+                                    </li>
+                                    <li onmouseover="services()"><a class="li"
+                                            href="projects.html">Services</a>
+                                    </li>
+                                    <li onmouseover="markets()"><a class="li" href="projects.html">Markets</a>
+                                    </li>
+                                    <li onmouseover="delivery()"><a class="li" href="projects.html">Delivery
+                                            Methods</a></li>
+                                </ul>
+                            </div>
+                            <div class="listItem" >
+                                <div class="center">
+                                    <ul>
+                                        <li onmouseover="text1()" class="btn"><a 
+                                                href="projects.html">Wet Utilities</a></li>
+                                        <li onmouseover="UtilityRehab1()" class="btn"><a 
+                                                href="projects.html">Utility Rehabilitation</a></li>
+                                        <li onmouseover="dryUt1()" class="btn"><a 
+                                                href="projects.html">Dry Utilities</a></li>
+                                        <li onmouseover="traffic_street1()" class="btn"><a 
+                                                href="projects.html">Traffic Signals & Street lights</a>
+                                        </li>
+                                        <li onmouseover="pump_pipe1()" class="btn"><a 
+                                                href="projects.html">Pump & Pipe Services</a></li>
+                                    </ul>
+                                </div>
+                                <div class="center shrink">
+                                    <h1 class="header" id="header1">Pump and Pipe services</h1>
+
+                                    <img class="contain" src="assets/General Picture Auger Drill.jpg" id="servicePic1" >
+                                    
+                                    <p id="text0">
+                                        
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+               
                 
 
                 </div>
             </nav>
-            
+            <a class="contact" href="about/contact.html">CONTACT US</a>
         </header>
     </nav>
 
@@ -60,8 +140,65 @@
         </div>
     </div>
     <div id="30year">
+        <p id="yearText">
+            For over 30 years B&F have been putting quality work and care into each project we take on. The company has seen nothing but growth these past years and cares for
+            all the employees that are under the B&F family. With countless awards it's no wonder why B&F has grown so much and we hope to see many new faces in the coming years and many
+            remaining faces. Thank you to everyone that has chosen B&F 
+        </p>
         <img src="assets/Logo 30 Year.png" id="yearLogo" alt="30 year logo">
 
     </div>
+    <div class="divisions">
+        <div id="text">
+            <a href="divisions/wetUtilities.html" id="headers">Wet Utilities</a>
+            <a class="imgLink" href="divisions/wetUtilities.html"><img src="assets/Division_Tiles/Wet Utilities.jpg"
+                    id="img" alt="Wet utilities image"></a>
+        </div>
+
+        <div id="text">
+            <a href="#" id="headers">Utility Rehabilitation</a>
+            <a class="imgLink" href="divisions/utilityRehab.html"><img
+                    src="assets/Division_Tiles/Utility Rehabilitation.jpg" id="img"
+                    alt="Utility Rehabilitation image"></a>
+        </div>
+
+        <div id="text">
+            <a href="#" id="headers">Dry Utilities</a>
+            <a class="imgLink" href="divisions/dryUtilities.html"><img src="assets/Division_Tiles/Dry Utilities.jpg"
+                    id="img" alt="Dry utilities image"></a>
+        </div>
+
+        <div id="text">
+            <a href="#" id="headers">Traffic Signals & Street Lights</a>
+            <a class="imgLink" href="divisions/traffiAndStreet.html"><img
+                    src="assets/Division_Tiles/Traffic Signals.jpeg" id="img"
+                    alt="Traffic Signals & Street Lights image"></a>
+        </div>
+
+        <div id="text">
+            <a href="#" id="headers">Pump & pipe services</a>
+            <a class="imgLink" href="divisions/pumpAndPipe.html"><img src="assets/Division_Tiles/Pump & Pipe.jpg"
+                    id="img" alt="Pump & pipe services image"></a>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+    <div>
+
+    </div>
+    <footer>
+        <p id="footer">2020 © B&F CONTRACTING, INC. ALL RIGHTS RESERVED. SITE BY SMALL GIANTS, LLC</p>
+    </footer>
+</body>
+<script>
+    function replace(num) {
+        if (num == 0) {
+            window.location.replace(divisions / dryUtilities.html)
+        }
+    }
+</script>
 
 </html>

@@ -1,47 +1,62 @@
 function text(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Wet Utilities.jpg"
-    document.getElementById('text').innerHTML  = "Wet utilities"
+    document.getElementById('text').innerHTML  = "";
+    document.getElementById('header').innerHTML  = "Wet utilities"
 }
 function text1(){
     document.getElementById('servicePic1').src  = "assets/Division_Tiles/Wet Utilities.jpg"
-    document.getElementById('text0').innerHTML  = "Wet utilities"
+    document.getElementById('text0').innerHTML  = ""
+    document.getElementById('header1').innerHTML  = "Wet utilities";
 }
 function UtilityRehab(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Utility Rehabilitation.jpg"
-    document.getElementById('text').innerHTML  = "Utility Rehab"
+    document.getElementById('text').innerHTML  = "";
+    document.getElementById('header').innerHTML  = "Utility Rehab";
 
 }
 function UtilityRehab1(){
     document.getElementById('servicePic1').src  = "assets/Division_Tiles/Utility Rehabilitation.jpg"
-    document.getElementById('text0').innerHTML  = "Utility Rehab"
+    document.getElementById('text0').innerHTML  = "";
+    document.getElementById('header1').innerHTML  = "Utility Rehab";
+
 
 }
 function dryUt(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Dry Utilities.jpg"
-    document.getElementById('text').innerHTML  = "Dry utilities"
+    document.getElementById('text').innerHTML  = "";
+    document.getElementById('header').innerHTML  = "Dry utilities"
 }
 function traffic_street(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Traffic Signals.jpeg"
-    document.getElementById('text').innerHTML  = "Traffic and street"
+    document.getElementById('text').innerHTML  = "";
+    document.getElementById('header').innerHTML  = "Traffic and street";
+
+    
 
 }
 function pump_pipe(){
     document.getElementById('servicePic').src  = "assets/Division_Tiles/Pump & Pipe.jpg"
-    document.getElementById('text').innerHTML  = "Service decription"
+    document.getElementById('text').innerHTML  = ""
+    document.getElementById('header').innerHTML  = "Pump & Pipe Services";
 
 }
 function dryUt1(){
     document.getElementById('servicePic1').src  = "assets/Division_Tiles/Dry Utilities.jpg"
-    document.getElementById('text0').innerHTML  = "Dry utilities"
+    document.getElementById('text0').innerHTML  = ""
+    document.getElementById('header1').innerHTML  = "Dry utilities";
+
 }
 function traffic_street1(){
     document.getElementById('servicePic1').src  = "assets/Division_Tiles/Traffic Signals.jpeg"
-    document.getElementById('text0').innerHTML  = "Traffic and street"
+    document.getElementById('text0').innerHTML  = ""
+    document.getElementById('header1').innerHTML  = "Traffic and street";
+
 
 }
 function pump_pipe1(){
     document.getElementById('servicePic1').src  = "assets/Division_Tiles/Pump & Pipe.jpg"
-    document.getElementById('text0').innerHTML  = "Service decription"
+    document.getElementById('text0').innerHTML  = ""
+    document.getElementById('header1').innerHTML  = "Pump & Pipe Services";
 
 }
 function projects(){

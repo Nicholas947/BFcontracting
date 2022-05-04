@@ -1,0 +1,19 @@
+#contactBody{
+    text-align: center;
+    margin: 3vw auto;
+}
+#frame{
+    align-content: center;
+    align-items: center;
+    margin-top: 10vw;
+}
+#contactBody p{
+    font-size: 1.4vw;
+}
+#contactBody a{
+    color: red;
+    font-size: 1.4vw;
+}
+#contactBody li{
+    font-size: 1.4vw;
+}

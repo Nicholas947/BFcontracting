@@ -8,6 +8,13 @@ html{
     padding-top: 24vh;
     
 }
+#yearText{
+    font-size: 1vw;
+    margin: 2vw 25%;
+    padding: 3%;
+    border: 8px double black ;
+    text-align: center;
+}
 .slideshow{
     width: 100%;
     position: relative;

@@ -1,0 +1,36 @@
+#paddingBenefit{
+    padding-top: 2vw;
+}
+.headerBenefit{
+    font-size: 3vw;
+    
+    text-align: center;
+}
+div.statement{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 3vw;
+    font-size: 2vw;
+}
+div.section{
+    display: flex;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    border: 1px black solid;
+    align-content: center;
+}
+.text{
+    text-align: center;
+    font-size: 2vw;
+}
+#sectionimg{
+    float: right;
+}
+#quote{
+    flex: 2 0 0%;
+}
+
+.benefits{
+    margin-bottom: 4vw;
+}

@@ -73,8 +73,12 @@ function projects(){
 
 
 }function markets(){
-    document.getElementById('text2').innerHTML = "markets"
-    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
+    document.getElementById('projectText1').innerHTML = "DESIGN BID BUILD"
+    document.getElementById('projectText2').innerHTML = "JOC"
+    document.getElementById('projectText3').innerHTML = "CMAR"
+    document.getElementById('projectText4').innerHTML = "HARD"
+    document.getElementById('projectText5').innerHTML = "EMERGENCY RESPONSE WORK"
+
 
 
 }function delivery(){

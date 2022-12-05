@@ -119,3 +119,25 @@ a#headers{
     font-size: 4vw;
  
 }
+#cignaBox{
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+#cignaBox p{
+    font-size: 1vw;
+    width: 50%;
+    left: auto;
+    margin: auto;
+}
+#cignaLink{
+    text-decoration:underline;
+    color: black;
+    font-size: small;
+    margin: 1vw 25%;
+    text-align: center;
+    align-content: center;
+    left: auto;
+    width: 50%;
+    word-break: break-all;
+}

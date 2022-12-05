@@ -4,9 +4,8 @@ body{
 html{
     height: auto;
 }
-.slideshowText{
-    padding-top: 24vh;
-    
+#ThirtyYear{
+    display: flex;
 }
 #yearText{
     font-size: 1vw;
@@ -14,9 +13,23 @@ html{
     padding: 3%;
     border: 8px double black ;
     text-align: center;
+    vertical-align: middle;
 }
+#yearLogo{
+    width:30%;
+    display: block;
+    margin:auto;
+    align-content: center;
+    transform: translateY(30%);
+}
+#year50{
+    width: 50%;
+
+}
+
 .slideshow{
     width: 100%;
+    height: 100%;
     position: relative;
     height: 50vw;
     animation: animate 16s ease-in-out infinite;
@@ -62,60 +75,161 @@ html{
     width: 100%;
     height: 100%;
 }
-#yearLogo{
-    width: 30%;
-    height: 30%;
-    display: block;
-    margin: auto;
-    
-}
+
 
 .divisions{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
     align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+
+}
+.sizingExpertise{
+   width: 20%; 
+   margin: 2% 3vw;
+}
+#divisionHeaders{
+    position: absolute;
+    color: white;
+    background-color: black;
 }
 div#text{
-    width: 630px;
     justify-content: center;
     align-content: center;
     overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 
-
 #img{
-    margin: 2px;
     align-content: center;
-    display: block;
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 a#headers{
-    color: black;
+    color: white;
     font: bold;
-    padding: 10px;
     text-align: center;
     width: 100%;
     justify-content: center;
-    display: block;
-    font-size: 28px;
-    text-decoration: underline;
+    position: absolute;
+    background-color: #53565A;
+    padding: 3% 0;
 }
 
 .imgLink{
-    height: 30vw;
+    height:14vw;
 }
 #bottom{
     margin-top: 2.5%;
 }
 .slideshowText{
     font-size: 2vw;
-    color: white;
+    color: black;
     width: fit-content;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 4vw 2vw;
+    transform: translateY(40%);
 }
 .slideTextbox{
-    font-size: 4vw;
- 
+    font-size: 3.4vw;
+    align-content: center;
+}
+#cignaLink{
+    text-decoration:underline;
+    color: black;
+    font-size: small;
+    margin: 1vw 25%;
+    text-align: center;
+    align-content: center;
+    left: auto;
+    width: 50%;
+    word-break: break-all;
+}
+#cignaBox{
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+#cignaBox p{
+    font-size: 1vw;
+    width: 50%;
+    left: auto;
+    margin: auto;
+}
+.bfFontColor{
+    color: red;
+    
+}
+#slideButton{
+    background-color: red;
+    border: none;
+    font-size: 2vh;
+    opacity: unset;
+    padding: 0 .5vw;
+    height: min-content;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(56, 56, 56, 0.4);
+    
+}
+button{
+    cursor: pointer;
+}
+#indexExpertise{
+    margin: 2% auto;
+    text-align: center;
+    width: 100%;
+}
+#headerExpertise{
+    font-size: 2vw;
+    color: red;
+}
+#indexExpertise p{
+    font-size: 1vw;
+    margin: auto 30%;
+    text-align: center;
+}
+div#featuredProjects{
+    margin: auto;
+    text-align: center;
+}
+
+#featuredProjects div.divisions{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+
+}
+#featuredProjects div.divisions div.sizingExpertise{
+    width: 15%; 
+    margin: 2% 1vw;
+ }
+
+ #featuredProjects div.divisions div.sizingExpertise #headers{
+    color: white;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    background-color: red;
+    padding: 3% 0;
+    bottom: 0%;
+}
+.headersStyles{
+    font-size: 1vw;
+}
+#center{
+    text-align: center;
+    align-content: center;
+}
+.Expertise{
+    background-color: rgba(104, 104, 104, 0.445);
 }

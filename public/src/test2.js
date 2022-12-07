@@ -19,7 +19,7 @@ function UtilityRehab1(){
     document.getElementById('text0').innerHTML  = "";
     document.getElementById('header1').innerHTML  = "Utility Rehab";
 
-
+ 
 }
 function dryUt(){
     document.getElementById('servicePic').src  = "../assets/Division_Tiles/Dry Utilities.jpg"

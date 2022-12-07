@@ -107,7 +107,6 @@ position: absolute;
 background: #53565A;
 display: flex;
 align-items: center;
-width: 34vw;
 border-radius: 5px;
 pointer-events: none;
 transform: translateX(-50%);
@@ -156,6 +155,7 @@ opacity: 0;
     display: flex;
     align-items: center;
     height: 100%;
+    width:fit-content
 }
 a.nav:hover{
     color: red;
@@ -185,11 +185,12 @@ a.nav:hover{
 .color{
     background-color: gray;
     width: 140px;
+    height: 100%;
 
 }
 .contain{
     width: 100%;
-    padding: 20px 10%;
+    padding: 5% 10%;
     height: 15vw;
 }
 .contact{

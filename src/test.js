@@ -66,9 +66,13 @@ function projects(){
 
 
 }function services(){
-    document.getElementById('projectPic').src  = "assets/General Picture Auger Drill.jpg"
-    document.getElementById('text2').innerHTML  = "-breakdowns" + `<br>` + "more";
-    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
+    document.getElementById('projectText1').innerHTML = "Wet Utilities"
+    document.getElementById('projectText2').innerHTML = "Utility Rehabilitation"
+    document.getElementById('projectText3').innerHTML = "Dry Utilities"
+    document.getElementById('projectText4').innerHTML = "Traffic Signals & Street lights"
+    document.getElementById('projectText5').innerHTML = "Pump & Pipe Services"
+    document.getElementById('servicePic1').src  = "assets/General Picture Auger Drill.jpg"
+    document.getElementById('text0').innerHTML = "Here is where the detail for teh picture will go"
 
 
 
@@ -78,6 +82,7 @@ function projects(){
     document.getElementById('projectText3').innerHTML = "CMAR"
     document.getElementById('projectText4').innerHTML = "HARD"
     document.getElementById('projectText5').innerHTML = "EMERGENCY RESPONSE WORK"
+    document.getElementById('text9').innerHTML = "Here is where the detail for teh picture will go"
 
 
 

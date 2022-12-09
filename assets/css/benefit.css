@@ -1,17 +1,16 @@
-#paddingBenefit{
-    padding-top: 2vw;
-}
+
 .headerBenefit{
     font-size: 3vw;
     
     text-align: center;
 }
 div.statement{
-    width: 100%;
     align-content: center;
     text-align: center;
     padding-bottom: 3vw;
     font-size: 2vw;
+    width: 50%;
+
 }
 div.section{
     display: flex;
@@ -33,4 +32,34 @@ div.section{
 
 .benefits{
     margin-bottom: 4vw;
+}
+
+div#alignmentB{
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+div.flexB{
+    display: flex;
+}
+div#benefitsB{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 3vw;
+    font-size: 2vw;
+    margin: auto;
+    justify-content: center;
+}
+.borderB{
+    text-align: center;
+    width: 15vw;
+    border: solid 2px black;
+    align-content: center;
+    align-items: center;
+    position: relative;
 }

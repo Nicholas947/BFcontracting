@@ -2,14 +2,15 @@
 <html lang="en">
 <!--red color red 83 
 
--->
+-->  
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/reset.css" rel="stylesheet" />
     <link href="../assets/css/navBar.css" rel="stylesheet" />
     <link href="../assets/css/benefit.css" rel="stylesheet" />
-    <script src="../src/test.js"></script>
+    <script src="../src/test2.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="../assets/logo.jpg">
     <title>Bfcontracting</title>
@@ -22,7 +23,9 @@
                     alt="Logo Image" /></a>
             <nav class="navBar">
                 <div class="navLinks">
-                    <div class="projects"><a href="../index.html" class="nav" id="team5">B&F CONTRACTING</a></div>
+                    <div class="projects">
+                        <a href="../index.html" class="nav" id="team5">B&F CONTRACTING</a>
+                    </div>
                     <div class="projects">
                         <a class="nav" id="team4" href="../divisions.html">EXPERTISE</a>
                         <div class="ul">
@@ -45,12 +48,12 @@
 
                             <div class="listItem">
                                 <div class="center">
-                                    <h1 class="header">Header</h1>
+                                    <h1 class="header" id="header">Utility Rehabilitation</h1>
 
                                     <img class="contain" src="../assets/General Picture Auger Drill.jpg" id="servicePic">
                                     
                                     <p id="text">
-                                        iahsbdaisbd
+                                        
                                     </p>
                                 </div>
 
@@ -58,9 +61,9 @@
 
                         </div>
                     </div>
-                    <div class="projects">
+                    <div class="projects" >
                         <a class="nav" id="team3" href="../projects.html">PROJECTS</a>
-                        <div class="ul">
+                        <div class="ul" >
                             <div class="lister">
                                 <ul class="color" id="project">
                                     <li onmouseover="projects()"><a class="li" href="../projects.html">All Projects</a>
@@ -77,26 +80,26 @@
                             <div class="listItem">
                                 <div class="center">
                                     <ul>
-                                        <li onmouseover="text1()" class="btn"><a 
+                                        <li onmouseover="text1()" class="btn"><a id="projectText1"
                                                 href="../divisions/wetUtilities.html">Wet Utilities</a></li>
-                                        <li onmouseover="UtilityRehab1()" class="btn"><a 
+                                        <li onmouseover="UtilityRehab1()" class="btn"><a id="projectText2"
                                                 href="../divisions/utilityRehab.html">Utility Rehabilitation</a></li>
-                                        <li onmouseover="dryUt1()" class="btn"><a 
+                                        <li onmouseover="dryUt1()" class="btn"><a id="projectText3"
                                                 href="../divisions/dryUtilities.html">Dry Utilities</a></li>
-                                        <li onmouseover="traffic_street1()" class="btn"><a 
+                                        <li onmouseover="traffic_street1()" class="btn"><a id="projectText4"
                                                 href="../divisions/traffiAndStreet.html">Traffic Signals & Street lights</a>
                                         </li>
-                                        <li onmouseover="pump_pipe1()" class="btn"><a 
+                                        <li onmouseover="pump_pipe1()" class="btn"><a id="projectText5"
                                                 href="../divisions/pumpAndPipe.html">Pump & Pipe Services</a></li>
                                     </ul>
                                 </div>
                                 <div class="center shrink">
-                                    <h1 class="header">Header</h1>
+                                    <h1 class="header" id="header1">Pump and Pipe services</h1>
 
                                     <img class="contain" src="../assets/General Picture Auger Drill.jpg" id="servicePic1" >
                                     
                                     <p id="text0">
-                                        iahsbdaisbd
+                                        
                                     </p>
                                 </div>
                                 
@@ -136,6 +139,8 @@
                         <div class="ul" id="padding">
                             <div class="lister">
                                 <ul class="color">
+                                    <li onmouseover="About()"><a class="li" href="../about/aboutUs.html">About
+                                        Us</a></li>
                                     <li onmouseover="visions()"><a class="li" href="../about/vision.html">Vision, Values,
                                             and Core Beliefs</a></li>
                                     <li onmouseover="benefit()"><a class="li" href="../about/benefit.html">The B&F
@@ -160,19 +165,42 @@
 
                         </div>
                     </div>
-                    
+                    <div class="projects">
+                        <a class="nav" href="../about/contact.html"><button  id="contact" type="button">CONTACT US</button></a>
+                    </div>
 
                 </div>
+                
             </nav>
-            <a class="contact" href="../about/contact.html">CONTACT US</a>
         </header>
     </nav>
 
-    <div class="benefits">
-        <div class="statement">
-            <h1 id="paddingBenefit" class="headerBenefit">The B&F Benefit</h1>
-            <p>Quick statement</p>
+    <div id="aboutIMG">
+         <p class="headerTOP">THE B&F BENEFIT</p>
+    </div>
+
+    <div id="alignmentB">
+        <div class="flexB"">
+            <div class="statement">
+                <h1 class="headerBenefit">The B&F Benefit</h1><br>
+                <p>Quick statement</p>
+            </div>
+
+            <div class="statement">
+                <img src="../assets/Logo 30 Year.png" width="100px">
+            </div>
         </div>
+   
+    </div>
+    <div id="benefitsB" class=" ">
+        <p class="borderB">Safety</p>
+        <p class="borderB">Quality</p>
+        <p class="borderB">Teamwork</p>
+        <p class="borderB">Technology</p>
+    </div>
+
+    <div class="benefits">
+        
 
         <div class="section">
             <p id="quote">Safety quote</p>

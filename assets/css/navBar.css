@@ -290,6 +290,7 @@ div#aboutIMG{
     vertical-align: middle;
     align-items: baseline;
     padding: 12.5vw;
+    justify-content: center;
 
 }
 #centerIMG{

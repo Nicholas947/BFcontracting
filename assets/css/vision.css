@@ -1,20 +1,18 @@
-body{
-    padding-top: 5%;
-}
+
 #pad{
     width: 100%;
     margin: auto;
     justify-content: center;
     text-align: center;
-    
+    font-size: larger;
+    padding: 10vh 0;
 
 
 }
 #pad p{
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+    width: 40%;
+    text-align: center;
+    margin: auto;
 }
 
 #statement{
@@ -23,4 +21,12 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 10%;
+}
+div#tiles{
+    width: 100%;
+    display: flex;
+}
+div#tiles img{
+    width: 20%;
+    height: 20vh;
 }

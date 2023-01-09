@@ -184,3 +184,20 @@ body {
 h2{
   text-align: center;
 }
+div#headline{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: #53565A;
+}
+#w-eighty{
+  width: 65%;
+  margin: 5vw;
+}
+
+div#headline div img{
+  width: 100%;
+}
+#w-twenty{
+  width: 35%;
+}

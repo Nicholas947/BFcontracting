@@ -5,22 +5,27 @@ footer{
     margin: auto;
     
 }
-footer div.footerFlex{
-    display: flex;
+footer div.footer{
     background-color: #53565A;
-    height: 100%;
     padding: 2vw 0;
 }
 #footer{
     text-align: center;
-    display: block;
-    height: 100%;
+    padding: 1vh 0;
 }
 .footerlogo{
     cursor: pointer;
-    padding: 0px;
-    float: left; 
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+
 }
+#flex{
+    display: flex;
+    justify-content: center;
+}
+#flex
 li, a{
     font-size: 1vw;
     font-weight: 500;
@@ -44,10 +49,9 @@ header{
 }
 
 a img.logo2{
-    width: auto;
-    margin: 0px;
-    padding: 0px;
 height: 4vw;    
+justify-content: center;
+
 }
 .navLinks{
     display: flex;
@@ -292,4 +296,10 @@ div#aboutIMG{
     width: 100%;
 
     
+}
+body,button{
+    font-family: "Inter", sans-serif; 
+}
+h1, h2, h3{
+    font-family: "Barlow Condensed", sans-serif;
 }

@@ -139,6 +139,9 @@ a#headers{
     font-size: 3.4vw;
     align-content: center;
 }
+.slideText{
+    font-size: 2vw;
+}
 #cignaLink{
     text-decoration:underline;
     color: black;

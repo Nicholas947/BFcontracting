@@ -309,3 +309,6 @@ h1, h2, h3{
 #translate{
     transform: translateX(-30%);
 }
+div.footer div#flex div{
+    padding: 5vh 3vw;
+}

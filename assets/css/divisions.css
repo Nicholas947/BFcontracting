@@ -26,6 +26,11 @@ div.text{
 
 #generalInfo{
     display: block;
+    margin: 5vh 5vw;
+    background-color: gray;
+}
+#generalInfo .flex{
+    background-color: white;
 }
 .flex{
     display: flex;
@@ -45,4 +50,35 @@ div img{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#margin{
+    margin: auto 5vw;
+  
+    justify-content: center;
+}
+.padding{
+    margin: 5vw 2vw;
+}
+.padding  h1{
+    padding-bottom: 2vh;
+}
+#flex2{
+    display: flex;
+}
+.sizingGrid{
+    width: 32%;
+    justify-content: center;
+    text-align: center;
+}
+.width{
+    width: 100%;
+}
+.morePadding{
+    padding: 0 5vw;
+}
+.button{
+    background-color: red;
+    width: fit-content;
+    padding: .5vw 1vw;
 }

@@ -40,6 +40,8 @@ header{
     justify-content: flex-end;
     align-items: center;
     background-color: transparent;
+    margin: 0 0 0 1.5vw;
+    justify-content: center;
 }
 .logo{
     cursor: pointer;
@@ -249,6 +251,7 @@ a.nav:hover{
     border: none;
     background-size: cover;
     color: white;
+    padding: 0 5px;
     
 }
 #contactBody{
@@ -308,6 +311,9 @@ h1, h2, h3{
 
 #translate{
     transform: translateX(-30%);
+}
+nav div.navLinks div.projects{
+    font-family: "Barlow Condensed", sans-serif;
 }
 div.footer div#flex div{
     padding: 5vh 3vw;

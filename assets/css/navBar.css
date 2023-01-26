@@ -174,7 +174,7 @@ a.nav:hover{
     top: 0px;
     width: 100%;
     z-index: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, .3), transparent);
+    background-image: linear-gradient(rgba(0, 0, 0, .9), transparent);
 }
 
 
@@ -254,6 +254,14 @@ a.nav:hover{
     padding: 0 5px;
     
 }
+
+#contact2{
+    background-color: red;
+    height: fit-content;
+    border: none;
+    background-size: cover;
+    color: white;
+}
 #contactBody{
     text-align: center;
     margin: 3vw auto;
@@ -312,9 +320,35 @@ h1, h2, h3{
 #translate{
     transform: translateX(-30%);
 }
-nav div.navLinks div.projects{
+nav div div.projects{
     font-family: "Barlow Condensed", sans-serif;
+}
+ul li{
+    font-family: "Barlow Condensed", sans-serif;
+
 }
 div.footer div#flex div{
     padding: 5vh 3vw;
+}
+
+div#footerNav{
+    display: flex;
+    width: 100%;
+    margin: 0 0 0 1.5vw;
+}
+div#footerNav div img.icons {
+    width:2vw;
+}
+div#footerNav div ul{
+    display: flex;
+}
+.footerButtons{
+    float: right;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+}
+ul li{
+    vertical-align: middle;
+    text-align: center;
 }

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: DinCondensed;
+    src: url(../fonts/D-DINCondensed-Bold.otf);
+}
 footer{
     background-color: black;
     width: 100%;
@@ -139,13 +143,12 @@ justify-content: baseline;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
 }
 
 .projects li:hover,
 .products li:hover{
     color: white;
-    background: rgb(3, 90, 255);
+    background-color: rgb(60, 60, 60);
 }
  .projects:hover .ul{
     opacity: 1;
@@ -262,6 +265,9 @@ a.nav:hover{
     background-size: cover;
     color: white;
 }
+body{
+    width: auto;
+}
 #contactBody{
     text-align: center;
     margin: 3vw auto;
@@ -314,17 +320,17 @@ body,button{
     font-family: "Inter", sans-serif; 
 }
 h1, h2, h3{
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: DinCondensed, sans-serif;
 }
 
 #translate{
     transform: translateX(-30%);
 }
 nav div div.projects{
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: DinCondensed, sans-serif;
 }
 ul li{
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: DinCondensed, sans-serif;
 
 }
 div.footer div#flex div{
@@ -334,7 +340,7 @@ div.footer div#flex div{
 div#footerNav{
     display: flex;
     width: 100%;
-    margin: 0 0 0 1.5vw;
+
 }
 div#footerNav div img.icons {
     width:2vw;
@@ -351,4 +357,9 @@ div#footerNav div ul{
 ul li{
     vertical-align: middle;
     text-align: center;
+}
+#icons{
+    
+    margin: 0 0 0 1.5vw;
+    
 }

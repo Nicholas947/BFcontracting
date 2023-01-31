@@ -26,7 +26,7 @@ div.text{
 
 #generalInfo{
     display: block;
-    margin: 5vh 5vw;
+    padding: 5vh 5vw;
     background-color: gray;
 }
 #generalInfo .flex{
@@ -42,8 +42,7 @@ div img{
 .flex div{
     margin: auto;
     justify-content: center;
-    width: 50%;
-   height: 50%;
+
 }
 .flex div p{
     width: 100%;
@@ -67,18 +66,69 @@ div img{
     display: flex;
 }
 .sizingGrid{
-    width: 32%;
     justify-content: center;
     text-align: center;
+    font-size: medium;
+
+}
+.sizingGrid div{
+    padding: 1vh 1vw;
+    background-color: red;
+    color: white;
 }
 .width{
     width: 100%;
 }
 .morePadding{
     padding: 0 5vw;
+    display: flex;
+    background-color: white;
+    margin: 5vh;
+
+    
 }
+.morePadding div{
+    margin: auto 2vw;
+    align-content: center;
+    justify-content: center;
+}
+
+
 .button{
     background-color: red;
     width: fit-content;
     padding: .5vw 1vw;
+}
+#deliveryMargin{
+    justify-content: center;
+    align-content: center;
+}
+
+img.imgDeliverySize{
+    width: min-content;
+}.flexDelivery div{
+    justify-content: center;
+   height: 50%;
+   width: fit-content;
+}
+.flexDelivery div p{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div#exploreProjects{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+
+}
+div#exploreProjects div{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
 }

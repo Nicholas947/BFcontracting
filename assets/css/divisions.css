@@ -122,8 +122,8 @@ div#exploreProjects{
     text-align: center;
     align-content: center;
     align-items: center;
-
-    margin: 5vh auto;
+    padding: 3vh 8vw;
+    margin: 3vh auto;
 
 }
 div#exploreProjects div{
@@ -131,14 +131,40 @@ div#exploreProjects div{
     align-content: center;
     align-items: center;
     display: flex;
-    margin: 5vh auto;
-
+    text-align: center;
+    margin: 2vw 1vw;
 }
 .backgroundContact{
-    background-color:rgb(255, 0, 0);
+    background-color:rgba(255, 0, 0, 0.733);
+    height: min-content;
+    width: 100%;
+    display: block;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background: url(../Division_Tiles/Wet\ Utilities.jpg), rgba(255, 0, 0, 0.733);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contactWhiteBack{
-    padding: 5vh 0;
+    
+    
     background-color: rgba(255, 255, 255, 0.467);
     width: fit-content;
+}
+
+#marketsText h1{
+    margin: 4vw auto;
+    
+    text-align: center;
+}
+#marketsText p{
+    margin: 3vw 20vw;
+    word-break: break-all;
+    
+}
+h1{
+    font-size: 2.4vw;
+}
+p{
+    font-size: 1vw;
 }

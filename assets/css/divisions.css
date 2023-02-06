@@ -74,9 +74,10 @@ div img{
 .sizingGrid div{
     padding: 1vh 1vw;
     height: 5vw;
-    width: 8vw;
+    width: 10vw;
     background-color: red;
     color: white;
+    margin: 2vh 2vw;
 }
 .width{
     width: 100%;
@@ -169,4 +170,62 @@ h1{
 }
 p{
     font-size: 1vw;
+}
+
+.sizingGridDivisions{
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+
+}
+.sizingGridDivisions div{
+    padding: 1vh 1vw;
+    height: 5vw;
+    width: 15vw;
+    background-color: red;
+    color: white;
+    margin: 2vh 2vw;
+}
+.sizingGridDivisions div p{
+    vertical-align: middle;
+}
+
+.flexDeliveryServices div{
+    justify-content: center;
+   
+
+}
+.flexDeliveryServices div p{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+.flexDeliveryServices div h1{
+    font-size: 1.6vw;
+    padding-bottom: 5%;
+}
+
+.morePaddingServices{
+   
+    display: flex;
+    background-color: white;
+    margin: 5vh;
+
+    
+}
+.morePaddingServices div{
+    
+    align-content: center;
+    justify-content: center;
+}
+.servicesIMG{
+    width: 70vw;
+    height: 50vh;
+}
+div#servicesTextTiles{
+    margin: 3vw 10vw 0 3vw;
+}
+div#servicesTextTiles a.button{
+    margin-top: 12vh;
 }

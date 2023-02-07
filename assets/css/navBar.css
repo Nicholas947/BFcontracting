@@ -316,7 +316,7 @@ div#aboutIMG{
 
     
 }
-body,button{
+body{
     font-family: "Inter", sans-serif; 
 }
 h1, h2, h3{
@@ -329,7 +329,7 @@ h1, h2, h3{
 nav div div.projects{
     font-family: DinCondensed, sans-serif;
 }
-ul li{
+ul li, button{
     font-family: DinCondensed, sans-serif;
 
 }

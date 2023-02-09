@@ -161,7 +161,7 @@ section ul li.active{
   .dropdown:hover .dropdown-content {display: block; height: auto;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn{background-color:red;}
+  .dropdown:hover .dropbtn{background-color:#C8102E;}
   .flex{
       display: flex;
   }

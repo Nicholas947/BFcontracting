@@ -74,7 +74,7 @@ ul{
     transition: all 0.3s ease 0s;
 }
 li a.nav:hover{
-    color: red;
+    color: #C8102E;
 }
 
 .contact2{
@@ -86,7 +86,7 @@ li a.nav:hover{
     text-decoration: underline;
 }
 button.contact2:hover{
-    color: red;
+    color: #C8102E;
 }
 
 .itemBox{
@@ -106,8 +106,10 @@ li a{
 
 
 .products, .projects{
- width: 100%;
+    width: 100%;
     position: relative;
+    margin: 0 .2vw;
+    letter-spacing: 0.1em;
 }
 
 .projects .ul,
@@ -120,7 +122,7 @@ display: flex;
 align-items: center;
 border-radius: 5px;
 pointer-events: none;
-/* transform: translateX(-50%); */
+
 box-shadow: 0px 0px 11px 3px black;
 box-shadow: 3px 3px 9px;
 z-index: 10;
@@ -149,6 +151,7 @@ justify-content: baseline;
 .products li:hover{
     color: white;
     background-color: rgb(60, 60, 60);
+    
 }
  .projects:hover .ul{
     opacity: 1;
@@ -169,7 +172,8 @@ justify-content: baseline;
     width:fit-content
 }
 a.nav:hover{
-    color: red;
+    color: #C8102E;
+    font-size: 1vw;
 }
 
 .topNav{
@@ -195,7 +199,7 @@ a.nav:hover{
 
 .color{
     background-color: gray;
-    width: max-content;
+    width: 11vw;
     height: 100%;
 
 }
@@ -208,7 +212,7 @@ a.nav:hover{
 .li{
    
     justify-content: center;
-    padding: 20% 10px;
+    padding: 10px 0;
     vertical-align: middle;
     text-align: center;
 
@@ -249,7 +253,7 @@ a.nav:hover{
 }
 
 #contact{
-    background-color: red;
+    background-color: #C8102E;
     height: fit-content;
     border: none;
     background-size: cover;
@@ -259,7 +263,7 @@ a.nav:hover{
 }
 
 #contact2{
-    background-color: red;
+    background-color: #C8102E;
     height: fit-content;
     border: none;
     background-size: cover;
@@ -281,7 +285,7 @@ body{
     font-size: 1.4vw;
 }
 #contactBody a{
-    color: red;
+    color: #C8102E;
     font-size: 1.4vw;
 }
 #contactBody li{
@@ -323,9 +327,7 @@ h1, h2, h3{
     font-family: DinCondensed, sans-serif;
 }
 
-#translate{
-    transform: translateX(-30%);
-}
+
 nav div div.projects{
     font-family: DinCondensed, sans-serif;
 }
@@ -335,6 +337,7 @@ ul li, button{
 }
 div.footer div#flex div{
     padding: 5vh 3vw;
+    line-height: 1.7;
 }
 
 div#footerNav{
@@ -353,13 +356,30 @@ div#footerNav div ul{
     justify-content: right;
     position: absolute;
     right: 0;
+    letter-spacing: 0.1em;
+}
+.footerButtons ul li{
+    margin: 0 6px;
+
 }
 ul li{
     vertical-align: middle;
     text-align: center;
 }
 #icons{
+    display: flex;
+    margin: 0 1vw 0 1.5vw;
     
-    margin: 0 0 0 1.5vw;
     
+}
+#icons a{
+    padding: 5px;
+}
+div#footerspacing{
+    line-height: 1.6;
+}
+
+#footerNavAlign{
+    position: absolute;
+    right: 0;
 }

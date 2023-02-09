@@ -165,11 +165,11 @@ a#headers{
     margin: auto;
 }
 .bfFontColor{
-    color: red;
+    color: #C8102E;
     
 }
 #slideButton{
-    background-color: red;
+    background-color: #C8102E;
     border: none;
     font-size: 2vh;
     opacity: unset;
@@ -189,7 +189,7 @@ button{
 }
 #headerExpertise{
     font-size: 2vw;
-    color: red;
+    color: #C8102E;
 }
 #indexExpertise p{
     font-size: 1vw;
@@ -222,7 +222,7 @@ div#featuredProjects{
     width: 100%;
     justify-content: center;
     position: absolute;
-    background-color: red;
+    background-color: #C8102E;
     padding: 3% 0;
     bottom: 0%;
 }

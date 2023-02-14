@@ -11,6 +11,7 @@
     <link href="assets/css/reset.css" rel="stylesheet" />
     <link href="assets/css/navBar.css" rel="stylesheet" />
     <link href="assets/css/projects.css" rel="stylesheet" />
+    <script src="src/project.js"></script>
     <script src="src/test.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed">
@@ -181,12 +182,12 @@
 
     <section>
         <div class="center" id="sectionColor">
-            <div id="filterText">
+            <div id="filterText" style="float: left;">
                 <h1 class="filterHeader">FILTERS</h1>
             </div>
-            <div class="dropdown">
+            <div class="dropdown" style="float: left;">
                 <div class="flex">
-                    <button class="dropbtn">SERVICE</button>
+                    <button class="dropbtn" id="Service"><p style="float: left; vertical-align: middle; margin-top: 2px;">SERVICE</p><p style="float: right; font-size: 32px;"> &#9660;</p></button>
                 </div>
 
                 <div class="dropdown">
@@ -195,31 +196,39 @@
                             <li class="list">
                                 <label class="container">
                                     Dry Utilities
-                                    <input type="checkbox" onclick="updateImages('Dry Utilities')" rel="Dry Utilities">
+                                    <input type="checkbox" onclick="updateImages('Dry Utilities'); changeHeaderService('DRY UTILITIES')" rel="Dry Utilities">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Wet Utilities
-                                    <input type="checkbox" onclick="updateImages('Wet Utilities')" rel="Wet Utilities">
+                                    UTILIY REHAB
+                                    <input type="checkbox" onclick="updateImages('UTILIY REHAB');changeHeaderService('UTILIY REHAB')" rel="UTILIY REHAB" >
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Pump & pipe
-                                    <input type="checkbox" onclick="updateImages('Pump and Pipe')">
+                                    WET UTILITIES
+                                    <input type="checkbox" onclick="updateImages('Wet Utilities');changeHeaderService('WET UTILITIES')" rel="Wet Utilities" >
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Traffic and Street
-                                    <input type="checkbox"onclick="updateImages('Traffic and Street')">
+                                    PUMP & PIPE
+                                    <input type="checkbox" onclick="updateImages('Pump and Pipe'); changeHeaderService('PUMP & PIPE')">
+                                    <span class="checkmark"
+                                         id="accept"></span>
+                                </label>
+                            </li>
+                            <li class="list">
+                                <label class="container">
+                                    TRAFFIC LIGHTS AND SIGNALS
+                                    <input type="checkbox"onclick="updateImages('Traffic and Street'); changeHeaderMarketService('TRAFFIC LIGHTS AND SIGNALS')">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
@@ -229,7 +238,8 @@
             </div>
             <div class="dropdown">
                 <div class="flex">
-                    <button class="dropbtn">MARKET</button>
+                    <button class="dropbtn" id="Market"><p style="float: left; vertical-align: middle; margin-top: 2px;">MARKET</p><p style="float: right; font-size: 32px;"> &#9660;</p></button>
+
                 </div>
 
                 <div class="dropdown">
@@ -237,73 +247,73 @@
                         <ul class="drop">
                             <li class="list">
                                 <label class="container">
-                                    Mission Critical
-                                    & Data Centers
-                                    <input type="checkbox" onclick="updateImages('Mission Critical & Data Centers')">
+                                    MISSION CRITICAL &
+                                    DATA CENTERS
+                                    <input type="checkbox" onclick="updateImages('Mission Critical & Data Centers'); changeHeaderMarket('MISSION CRITICAL & DATA CENTERS')">
                                     <span class="checkmark"
                                         id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Manufacturing
-                                    <input type="checkbox"  onclick="updateImages('Manufacturing')">
+                                    MANUFACTURING
+                                    <input type="checkbox"  onclick="updateImages('Manufacturing') ; changeHeaderMarket('MANUFACTURING')">
                                     <span class="checkmark"
                                        id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Municipal
-                                    <input type="checkbox" onclick="updateImages('Municipal')">
+                                    MUNICIPAL
+                                    <input type="checkbox" onclick="updateImages('Municipal'); changeHeaderMarket('MUNICIPAL')">
                                     <span class="checkmark"
                                         id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Commercial
-                                    <input type="checkbox" onclick="updateImages('Commercial')">
+                                    COMMERCIAL
+                                    <input type="checkbox" onclick="updateImages('Commercial'); changeHeaderMarket('COMMERCIAL')">
                                     <span class="checkmark"
                                         id="accept"></span>
                                 </label>
                             </li>
                              <li class="list">
                                 <label class="container">
-                                    Education
-                                    <input type="checkbox" onclick="updateImages('Education')">
+                                    EDUCATION
+                                    <input type="checkbox" onclick="updateImages('Education'); changeHeaderMarket('EDUCATION')">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Higher Education
-                                    <input type="checkbox" onclick="updateImages('Higher Education')">
+                                    HIGHER EDUCATION
+                                    <input type="checkbox" onclick="updateImages('Higher Education'); changeHeaderMarket('HIGHER EDUCATION')">
                                     <span class="checkmark"
                                         id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Aviation
-                                    <input type="checkbox" onclick="updateImages('Aviation')">
+                                    AVAITION
+                                    <input type="checkbox" onclick="updateImages('Aviation'); changeHeaderMarket('AVAITION')">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Landfill
-                                    <input type="checkbox" onclick="updateImages('Landfill')">
+                                    LANDFILL
+                                    <input type="checkbox" onclick="updateImages('Landfill'); changeHeaderMarket('LANDFILL')">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
                             </li>
                             <li class="list">
                                 <label class="container">
-                                    Mining & Pits
-                                    <input type="checkbox" onclick="updateImages('Mining & Pits')">
+                                    MINING & PITS
+                                    <input type="checkbox" onclick="updateImages('Mining & Pits'); changeHeaderMarket('MINING & PITS')">
                                     <span class="checkmark"
                                          id="accept"></span>
                                 </label>
@@ -316,34 +326,35 @@
             <div class="dropdown">
                 <div class="flex">
                     
-                    <button class="dropbtn">DELIVERY METHOD</button>
+                    <button class="dropbtn" id="Delivery"><p style="float: left; vertical-align: middle; margin-top: 2px;">DELIVERY</p><p style="float: right; font-size: 32px;"> &#9660;</p></button>
+
                 </div>
 
                 <div class="dropdown">
                     <div class="dropdown-content">
                         <ul class="drop">
-                            <li class="list"><label class="container">Design Bid Build
-                                    <input type="checkbox" onclick="updateImages('Design Bid Build')">
+                            <li class="list"><label class="container">DESIGN BID BUILD
+                                    <input type="checkbox" onclick="updateImages('Design Bid Build'); changeHeaderDelivery('DESIGN BID BUILD')">
                                     <span class="checkmark" id="accept"></span>
                                 </label>
                             </li>
                             <li class="list"><label class="container">JOC
-                                    <input type="checkbox" onclick="updateImages('JOC')">
+                                    <input type="checkbox" onclick="updateImages('JOC'); changeHeaderDelivery('JOC')">
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
                             <li class="list"><label class="container">CMAR
-                                    <input type="checkbox" onclick="updateImages('CMAR')">
+                                    <input type="checkbox" onclick="updateImages('CMAR'); changeHeaderDelivery('CMAR')">
                                     <span class="checkmark" id="accept"></span>
                                 </label>
                             </li>
-                            <li class="list"><label class="container">Hard Bid
-                                    <input type="checkbox"  onclick="updateImages('Hard Bid')">
+                            <li class="list"><label class="container">HARD BID
+                                    <input type="checkbox"  onclick="updateImages('Hard Bid'); changeHeaderDelivery('HARD BID')">
                                     <span class="checkmark" id="accept"></span>
                                 </label>
                             </li>
-                            <li class="list"><label class="container">Emergency Response Work
-                                    <input type="checkbox" onclick="updateImages('Emergency Response Work')">
+                            <li class="list"><label class="container">EMERGENCY RESPONSE WORK
+                                    <input type="checkbox" onclick="updateImages('Emergency Response Work'); changeHeaderDelivery('EMERGENCY RESPONSE WORK')">
                                     <span class="checkmark" id="accept"></span>
                                 </label>
                             </li>

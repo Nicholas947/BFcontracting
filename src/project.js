@@ -195,3 +195,33 @@ const visiblePhotos = setPhotos(testCriteria2, allPhotos);
 // In this example we're logging it to the console :)
 console.log(visiblePhotos);
 
+function changeHeaderMarket(input) {
+  if(document.querySelectorAll('#accept:checked') !== null){
+    document.getElementById('Market').innerText = input
+    
+  }
+  else{
+    document.getElementById('Market').innerText = 'Market'
+    
+  }
+}
+function changeHeaderDelivery(inputDelivery){
+  if(document.querySelectorAll('#accept:checked') !== null){
+    document.getElementById('Delivery').innerText = inputDelivery
+    
+  }
+  else{
+    document.getElementById('Delivery').innerText = 'Delivery'
+    
+  }
+}
+function changeHeaderService(inputService){
+  if(document.querySelectorAll('#accept:checked') !== null){
+    document.getElementById('Service').innerText = inputService
+    
+  }
+  else{
+    document.getElementById('Service').innerText = 'Service'
+    
+  }
+}

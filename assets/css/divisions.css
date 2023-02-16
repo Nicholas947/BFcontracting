@@ -27,7 +27,7 @@ div.text{
 #generalInfo{
     display: block;
     padding: 5vh 5vw;
-    background-color: rgba(0, 8, 12, 0.096);
+    background-color: rgba(0, 8, 12, 0.301);
 }
 #generalInfo .flex{
     background-color: white;
@@ -56,9 +56,7 @@ div img{
   
     justify-content: center;
 }
-.padding{
-    margin: 5vw 2vw;
-}
+
 .padding  h1{
     padding-bottom: 2vh;
     font-size: 2vw;
@@ -84,15 +82,14 @@ div img{
     width: 100%;
 }
 .morePadding{
-    padding: 0 5vw;
     display: flex;
     background-color: white;
     margin: 5vh;
 
     
 }
-.morePadding div{
-    margin: auto 2vw;
+.paddingTextMethod{
+    margin: 2vw;
     align-content: center;
     justify-content: center;
 }
@@ -167,10 +164,10 @@ div#exploreProjects div{
     word-break: break-all;
     
 }
-h1{
+.contactWhiteBack h1, .padding div h1, .methodsHeader, #exploreProjects h1{
     font-size: 2.4vw;
 }
-p{
+#servicesTextTiles p, .methodsText{
     font-size: 1vw;
 }
 

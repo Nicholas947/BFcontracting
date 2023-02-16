@@ -31,7 +31,7 @@ footer div.footer{
 }
 
 li, a{
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-weight: 500;
     color: #ecf0f1;
     text-decoration: none;
@@ -114,12 +114,12 @@ li a{
 
 .projects .ul,
 .products .ul{
-    text-align: center;
+    
 position: absolute;
 background: #53565A;
 display: flex;
 /* width: 34vw; */
-align-items: center;
+
 border-radius: 5px;
 pointer-events: none;
 
@@ -143,7 +143,6 @@ justify-content: baseline;
 .projects li,
 .products li{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -173,7 +172,7 @@ justify-content: baseline;
 }
 a.nav:hover{
     color: #C8102E;
-    font-size: 1vw;
+    
 }
 
 .topNav{
@@ -209,14 +208,6 @@ a.nav:hover{
     height: 15vw;
 }
 
-.li{
-   
-    justify-content: center;
-    padding: 10px 0;
-    vertical-align: middle;
-    text-align: center;
-
-}
 
 
 .header{
@@ -300,6 +291,7 @@ div#aboutIMG{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
 }
 .headerTOP{
@@ -312,6 +304,7 @@ div#aboutIMG{
     align-items: baseline;
     padding: 12.5vw;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), transparent);
 
 }
 #centerIMG{
@@ -331,7 +324,7 @@ h1, h2, h3{
 nav div div.projects{
     font-family: DinCondensed, sans-serif;
 }
-ul li, button{
+ul li, button, .button{
     font-family: DinCondensed, sans-serif;
 
 }
@@ -362,10 +355,7 @@ div#footerNav div ul{
     margin: 0 6px;
 
 }
-ul li{
-    vertical-align: middle;
-    text-align: center;
-}
+
 #icons{
     display: flex;
     margin: 0 1vw 0 1.5vw;

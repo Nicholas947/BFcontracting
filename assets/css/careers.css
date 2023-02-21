@@ -1,0 +1,62 @@
+#careerTextPhoto{
+    width: 18vw;
+    height: 22vw;
+}
+
+.flex{
+    display: flex;
+}
+#startYourCareer{
+    font-size: 1vw;
+
+    margin: 3vw 14vw;
+}
+
+#startYourCareer h1{
+    margin: 1.5vw 0;
+}
+#startYourCareerPTag{
+    margin-right: 6vw;
+}
+.button{
+    background-color: #C8102E;
+    width: fit-content;
+    padding: .5vw 1vw;
+    margin-top: 30px;
+}
+.careersPicture{
+    color: white;
+    font-size: 3vw;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: baseline;
+    padding: 12.5vw;
+    justify-content: center;
+}
+
+#benefitDivision{
+    text-align: center;
+    font-size: 1vw;
+    margin: 3vw auto;
+}
+#employeeBenefitHeader{
+    margin: 1vw auto;
+}
+
+.equalOpportunityText{
+
+    background-image: url(../Division_Tiles/Wet\ Utilities.jpg);
+    padding: 4vw 1vw;
+}
+.equalOpportunityText div{
+    text-align: center;
+    margin: 0 8vw;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.equalOpportunityText div h1{
+    color: #C8102E;
+    margin-bottom: 2vw;
+}

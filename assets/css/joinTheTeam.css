@@ -7,3 +7,12 @@
     padding: 3vw 5vw;
     font-size: 1vw;
 }
+
+#pathsBody{
+    margin: auto 13vw;
+    justify-content: center;
+}
+
+#pathsHeaderText{
+    text-align: center;
+}

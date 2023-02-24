@@ -25,6 +25,10 @@ div#textAbout{
 #textContain{
   padding: 10vw 15vw 10vw 0;
 }
+#textContain h1{
+  padding: 0 0 2vw 0;
+  color: #C8102E;
+}
 
 #achievement{
   display:flex;
@@ -100,4 +104,80 @@ div.seventy img{
     flex-direction: column;
     transition: opacity 0.3s;
   }
-  
+  body{
+    font-size: 1vw;
+  }
+  #learnText{
+    text-align: center;
+    padding: 2vw 0;
+  }
+  div#text{
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#img{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgLink{
+    height:14vw;
+}
+
+
+div#featuredProjects{
+    margin: auto;
+    text-align: center;
+}
+
+#featuredProjects div.divisions{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+
+}
+#featuredProjects div.divisions div.sizingExpertise{
+    width: 15%; 
+    margin: 2% 1vw;
+ }
+
+ #featuredProjects div.divisions div.sizingExpertise #headers{
+    color: white;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    background-color: black;
+    padding: 3% 0;
+    bottom: 0%;
+}
+.headersStyles{
+    font-size: 1vw;
+}
+#center{
+    text-align: center;
+    align-content: center;
+}
+.Expertise{
+    background-color: rgba(104, 104, 104, 0.445);
+}
+.idealPhoto{
+    width: 20vw;
+}
+#photoContain{
+    width: 100%;
+    justify-content: center;
+}
+#headerExpertise{
+  padding: 2vw 0;
+}

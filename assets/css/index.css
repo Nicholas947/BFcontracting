@@ -222,7 +222,7 @@ div#featuredProjects{
     width: 100%;
     justify-content: center;
     position: absolute;
-    background-color: #C8102E;
+    background-color: red;
     padding: 3% 0;
     bottom: 0%;
 }

@@ -39,12 +39,16 @@
 #benefitDivision{
     text-align: center;
     font-size: 1vw;
-    margin: 3vw auto;
+    padding: 3vw 0;
+    background-color: rgba(0, 8, 12, 0.301);
+
+}
+#employeeBenefitText{
+    margin: 25px auto;
 }
 #employeeBenefitHeader{
-    margin: 1vw auto;
+    color: #C8102E;
 }
-
 .equalOpportunityText{
 
     background-image: url(../Division_Tiles/Wet\ Utilities.jpg);
@@ -59,4 +63,166 @@
 .equalOpportunityText div h1{
     color: #C8102E;
     margin-bottom: 2vw;
+}
+
+.width{
+    width: 100%;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    padding: 1vw;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+
+div#text{
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#img{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgLink{
+    height:14vw;
+}
+
+
+div#featuredProjects{
+    margin: auto;
+    text-align: center;
+}
+
+#featuredProjects div.divisions{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+
+}
+#featuredProjects div.divisions div.sizingExpertise{
+    width: 15%; 
+    margin: 2% 1vw;
+ }
+
+ #featuredProjects div.divisions div.sizingExpertise #headers{
+    color: white;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    background-color: #53565A;
+    padding: 3% 0;
+    bottom: 0%;
+}
+.headersStyles{
+    font-size: 1vw;
+}
+#center{
+    text-align: center;
+    align-content: center;
+}
+.Expertise{
+    background-color: rgba(104, 104, 104, 0.445);
+}
+.idealPhoto{
+    width: 20vw;
+}
+#photoContain{
+    width: 100%;
+    justify-content: center;
+}
+#idealPositionText{
+    justify-content: center;
+    text-align: center;
+    margin: 50px 18vw;
+    
+}
+#idealPositionText h1{
+    font-size: 2vw;
+}
+#idealPositionText p{
+    padding: 2vw 0;
+}
+body{
+    font-size: 1vw;
+}
+#searchHeader{
+    text-align: center;
+    width: 100%;
+    padding: 2vw 0;
+    background-color: #53565A;
+    color: white;
+}
+.jobCard{
+    margin: 2vw 15vw;
+    background-color: white;
+    padding: 1vw;
+}
+.jobCard h1{
+    color: #C8102E;
+}
+.jobCard a.button{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.bolded{
+    font-weight: bold;
+    padding: 5px 0;
+}
+.jobDescription{
+    padding: 15px 0;
 }

@@ -5,14 +5,15 @@
     justify-content: center;
     text-align: center;
     font-size: larger;
-    padding: 10vh 0;
+    padding: 10vh 20vw;
 
 
 }
 #pad p{
-    width: 40%;
+    
     text-align: center;
-    margin: auto;
+    margin: 2vw 0;
+
 }
 
 #statement{
@@ -21,6 +22,10 @@
     justify-content: center;
     text-align: center;
     margin-top: 10%;
+    display: flex;
+}
+#statement div{
+  width: 50%;  
 }
 div#tiles{
     width: 100%;
@@ -29,4 +34,67 @@ div#tiles{
 div#tiles img{
     width: 20%;
     height: 32vh;
+}
+body{
+    font-size: 1vw;
+}
+.valueTiles{
+    padding: 10vh 4vw;
+    margin: 1vw;
+    background-color: #53565A;
+
+}
+.valueColumn{
+    display: flex;
+    justify-content: center;
+}
+#contentVisions{
+    margin: 0 4vw;
+}
+#Visionpadding{
+    padding: 1vw;
+}
+#valuesColumns{
+    justify-content: center;
+    width: 100%;
+    margin: 5vw 0;
+}
+
+.belifsColumn{
+    width: 50%;
+}
+.belifsColumn p{
+    padding: 4vw 0;
+}
+.flex{
+    display: flex;
+}
+#alignbeliefs{
+    text-align: center;
+    justify-content: center;
+}
+#alignbeliefs h1{
+    padding: 1vw 3vw;
+    background-color: #C8102E;
+    margin: 2vw auto;
+    width: fit-content;
+    color: white;
+    font-size: large;
+    
+}
+#quoteColumn{
+    display: flex;
+    background-color: rgba(161, 161, 161, 0.445);
+    
+}
+#quoteColumn div{
+    width: 50%;
+    justify-content: center;
+}
+#quoteColumn div img{
+    width: 100%;
+    height: 100%;
+}
+#quote{
+    vertical-align: middle;
 }

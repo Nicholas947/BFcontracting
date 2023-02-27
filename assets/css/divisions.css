@@ -107,10 +107,10 @@ div img{
 }
 
 img.imgDeliverySize{
-    width: min-content;
+    height:100%;
 }.flexDelivery div{
     justify-content: center;
-   height: 50%;
+   
    width: fit-content;
 }
 .flexDelivery div p{

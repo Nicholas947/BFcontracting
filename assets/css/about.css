@@ -33,6 +33,7 @@ div#textAbout{
 #achievement{
   display:flex;
   width: 100%;
+  height: 30vw;
   background-color: #53565A;
 }
 div.thirty{
@@ -49,7 +50,7 @@ div.seventy img{
   overflow: hidden;
   contain: content;
   width: 100%;
-  height:30vw;
+  height:100%;
   justify-content: center;
   
 }

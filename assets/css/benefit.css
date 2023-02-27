@@ -30,8 +30,9 @@ div.section{
 
 .benefits{
     width: 100%;
-    background-color: #53565A;
+    background-color: #9e9e9eb0;
     height: 50vh;
+    margin-top: 3vh;
 }
 
 div#alignmentB{

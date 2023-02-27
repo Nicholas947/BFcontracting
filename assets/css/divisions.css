@@ -179,7 +179,7 @@ div#exploreProjects div{
 }
 .sizingGridDivisions div{
     padding: 1vh 1vw;
-    height: 5vw;
+    height: 11vh;
     width: 15vw;
     background-color: #C8102E;
     color: white;
@@ -220,11 +220,17 @@ div#exploreProjects div{
 }
 .servicesIMG{
     width: 70vw;
-    height: 50vh;
+    height: 100%;
 }
 div#servicesTextTiles{
     margin: 3vw 10vw 0 3vw;
 }
 div#servicesTextTiles a.button{
-    margin-top: 12vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+div#undergroundServicesText{
+    text-align: center;
+    margin: 5vh 15vw;
 }

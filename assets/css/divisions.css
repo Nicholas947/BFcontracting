@@ -58,7 +58,7 @@ div img{
 }
 
 .padding  h1{
-    padding-bottom: 2vh;
+    
     font-size: 2vw;
 }
 #flex2{
@@ -85,7 +85,7 @@ div img{
     display: flex;
     background-color: white;
     margin: 5vh;
-
+    height: 22vw;
     
 }
 .paddingTextMethod{
@@ -99,7 +99,7 @@ div img{
     background-color: #C8102E;
     width: fit-content;
     padding: .5vw 1vw;
-    
+    font-size: 1.8vw;
 }
 #deliveryMargin{
     justify-content: center;
@@ -117,7 +117,7 @@ img.imgDeliverySize{
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2vw;
+    padding: 4vw 0;
 }
 div#exploreProjects{
     justify-content: center;
@@ -199,10 +199,6 @@ div#exploreProjects div{
     justify-content: center;
     align-items: center;
     padding-bottom: 2vw;
-}
-.flexDeliveryServices div h1{
-    font-size: 1.6vw;
-    padding-bottom: 5%;
 }
 
 .morePaddingServices{

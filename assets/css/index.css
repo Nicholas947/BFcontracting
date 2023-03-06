@@ -188,7 +188,7 @@ button{
     width: 100%;
 }
 #headerExpertise{
-    font-size: 2vw;
+    padding: 20px 0;
     color: #C8102E;
 }
 #indexExpertise p{

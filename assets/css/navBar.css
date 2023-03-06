@@ -31,7 +31,7 @@ footer div.footer{
 }
 
 li, a{
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 500;
     color: #ecf0f1;
     text-decoration: none;
@@ -162,6 +162,7 @@ justify-content: baseline;
 .nav{
     width: auto;
     margin: 0px 10px;
+    font-size: 1.3vw;
 }
 
 .listItem{

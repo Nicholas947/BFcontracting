@@ -1,9 +1,24 @@
+/* Top b&f benefit & statement& 30 yaer logo with boxes */
+
+/* Just aligns everything in center and width entire screen */
+div#alignmentB{
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}
+
+
+div.flexB{
+    display: flex;
+}
 
 .headerBenefit{
     font-size: 3vw;
     
     text-align: center;
 }
+
+/* Change the size and cneters . Splits the text and logo into 50 percent of screen */
 div.statement{
     align-content: center;
     text-align: center;
@@ -12,38 +27,8 @@ div.statement{
     justify-content: center;
 
 }
-div.section{ 
-    margin-bottom: 3vw;
-    font-size: 2vw;
-    align-content: center;
-}
-.text{
-    text-align: center;
-    font-size: 2vw;
-}
 
-#quote{
-    text-align: center;
-    justify-content: center;
-    
-}
-
-.benefits{
-    width: 100%;
-    background-color: #9e9e9eb0;
-    height: 50vh;
-    margin-top: 3vh;
-}
-
-div#alignmentB{
-    width: 100%;
-    margin: auto;
-    align-content: center;
-}
-
-div.flexB{
-    display: flex;
-}
+/* Bottom box section that has 4 important benefits of b&f */
 div#benefitsB{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +43,8 @@ div#benefitsB{
     justify-content: center;
     width: 100%;
 }
+
+/* ALignment for each box */
 .borderB{
     text-align: center;
     width: 20%;
@@ -66,3 +53,32 @@ div#benefitsB{
     align-items: center;
     position: relative;
 }
+
+/* --------------------------------------------- */
+/* Controls each entire box and changes background color */
+.benefits{
+    width: 100%;
+    background-color: #9e9e9eb0;
+    height: 50vh;
+    margin-top: 3vh;
+}
+
+/* controls header in heach box */
+div.section{ 
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    align-content: center;
+}
+#quote{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+/* controls text in each box */
+.text{
+    text-align: center;
+    font-size: 2vw;
+}
+
+

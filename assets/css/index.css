@@ -1,10 +1,20 @@
+/* Index html page */
+
+/* Basic html changes */
 body{
     background-color: white;
 }
 html{
     height: auto;
 }
-#ThirtyYear{
+
+button{
+    cursor: pointer;
+}
+
+
+
+/* #ThirtyYear{
     display: flex;
 }
 #yearText{
@@ -25,8 +35,9 @@ html{
 #year50{
     width: 50%;
 
-}
-
+} */
+/* --------------------------------------------- */
+/* Slide show at the top with text and scrolling */
 .slideshow{
     width: 100%;
     height: 100%;
@@ -71,10 +82,43 @@ html{
     
 }
 
-#year{
-    width: 100%;
-    height: 100%;
+.slideshowText{
+    font-size: 2vw;
+    color: black;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 4vw 2vw;
+    transform: translateY(40%);
 }
+.slideTextbox{
+    font-size: 3.4vw;
+    align-content: center;
+}
+.slideText{
+    font-size: 2vw;
+}
+
+.bfFontColor{
+    color: #C8102E;
+    
+}
+
+#bottom{
+    margin-top: 2.5%;
+}
+
+#slideButton{
+    background-color: #C8102E;
+    border: none;
+    font-size: 2vh;
+    opacity: unset;
+    padding: 0 .5vw;
+    height: min-content;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(56, 56, 56, 0.4);
+    
+}
+/* --------------------------------------------- */
 
 
 .divisions{
@@ -124,64 +168,7 @@ a#headers{
 .imgLink{
     height:14vw;
 }
-#bottom{
-    margin-top: 2.5%;
-}
-.slideshowText{
-    font-size: 2vw;
-    color: black;
-    width: fit-content;
-    background-color: rgba(255, 255, 255, .7);
-    padding: 4vw 2vw;
-    transform: translateY(40%);
-}
-.slideTextbox{
-    font-size: 3.4vw;
-    align-content: center;
-}
-.slideText{
-    font-size: 2vw;
-}
-#cignaLink{
-    text-decoration:underline;
-    color: black;
-    font-size: small;
-    margin: 1vw 25%;
-    text-align: center;
-    align-content: center;
-    left: auto;
-    width: 50%;
-    word-break: break-all;
-}
-#cignaBox{
-    text-align: center;
-    align-content: center;
-    margin: auto;
-}
-#cignaBox p{
-    font-size: 1vw;
-    width: 50%;
-    left: auto;
-    margin: auto;
-}
-.bfFontColor{
-    color: #C8102E;
-    
-}
-#slideButton{
-    background-color: #C8102E;
-    border: none;
-    font-size: 2vh;
-    opacity: unset;
-    padding: 0 .5vw;
-    height: min-content;
-    color: white;
-    box-shadow: 2px 2px 2px 2px rgba(56, 56, 56, 0.4);
-    
-}
-button{
-    cursor: pointer;
-}
+
 #indexExpertise{
     margin: 2% auto;
     text-align: center;
@@ -196,6 +183,9 @@ button{
     margin: auto 30%;
     text-align: center;
 }
+
+/* --------------------------------------------- */
+/* FUture code for featured projects section */
 div#featuredProjects{
     margin: auto;
     text-align: center;
@@ -236,3 +226,32 @@ div#featuredProjects{
 .Expertise{
     background-color: rgba(104, 104, 104, 0.445);
 }
+
+/* #year{
+    width: 100%;
+    height: 100%;
+
+    #cignaLink{
+    text-decoration:underline;
+    color: black;
+    font-size: small;
+    margin: 1vw 25%;
+    text-align: center;
+    align-content: center;
+    left: auto;
+    width: 50%;
+    word-break: break-all;
+}
+#cignaBox{
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+#cignaBox p{
+    font-size: 1vw;
+    width: 50%;
+    left: auto;
+    margin: auto;
+}
+
+} */

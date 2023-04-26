@@ -1,5 +1,5 @@
-
-
+/* Top headlline section with image on left nad text on right */
+/* ABOUT US PAGE */
 div#textAbout{
   display: flex;
   margin: 5% auto;
@@ -12,24 +12,29 @@ div#textAbout{
 #textAbout div{
   width: 50%;
 }
+
+/* B&F logo alignment */
 #imgContain{
   display: flex;
   justify-content: center;
 
 }
-#textAbout div img{
-  align-content: center;
-  align-items: center;
 
-}
+/* Text On right */
 #textContain{
   padding: 10vw 15vw 10vw 0;
 }
+
 #textContain h1{
   padding: 0 0 2vw 0;
   color: #C8102E;
 }
 
+
+
+/* --------------------------------------------- */
+/* ABOUT US PAGE */
+/* This is all panels with text and photos of achievements */
 #achievement{
   display:flex;
   width: 100%;
@@ -55,6 +60,88 @@ div.seventy img{
   
 }
 
+/* --------------------------------------------- */
+/* ABOUT US PAGE */
+/* last section at bottom with the explore oppurtunitys and the 4 images */
+
+div#featuredProjects{
+  margin: auto;
+  text-align: center;
+}
+
+#featuredProjects div.divisions{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0% auto;
+
+}
+#featuredProjects div.divisions div.sizingExpertise{
+  width: 15%; 
+  margin: 2% 1vw;
+}
+
+#featuredProjects div.divisions div.sizingExpertise #headers{
+  color: white;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  background-color: black;
+  padding: 3% 0;
+  bottom: 0%;
+}
+.headersStyles{
+  font-size: 1vw;
+}
+
+
+.imgLink{
+  height:14vw;
+}
+
+
+
+#headerExpertise{
+padding: 2vw 0;
+margin: 2vw 5vw;
+border-top: #C8102E solid 2px;
+}
+#img{
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+div#text{
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+
+/* --------------------------------------------- */
+
+/* 
+#photoContain{
+  width: 100%;
+  justify-content: center;
+}
+#learnText{
+  text-align: center;
+  padding: 2vw 0;
+}
+#center{
+  text-align: center;
+  align-content: center;
+}
 .product{
     display: flex;
     flex-wrap: wrap;
@@ -108,79 +195,13 @@ div.seventy img{
   body{
     font-size: 1vw;
   }
-  #learnText{
-    text-align: center;
-    padding: 2vw 0;
-  }
-  div#text{
-    justify-content: center;
-    align-content: center;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-
-#img{
-    align-content: center;
-    width: 100%;
-    height: 100%;
-}
+  
 
 
-.imgLink{
-    height:14vw;
-}
 
-
-div#featuredProjects{
-    margin: auto;
-    text-align: center;
-}
-
-#featuredProjects div.divisions{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    margin: 0% auto;
-
-}
-#featuredProjects div.divisions div.sizingExpertise{
-    width: 15%; 
-    margin: 2% 1vw;
- }
-
- #featuredProjects div.divisions div.sizingExpertise #headers{
-    color: white;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    position: absolute;
-    background-color: black;
-    padding: 3% 0;
-    bottom: 0%;
-}
-.headersStyles{
-    font-size: 1vw;
-}
-#center{
-    text-align: center;
-    align-content: center;
-}
 .Expertise{
     background-color: rgba(104, 104, 104, 0.445);
 }
 .idealPhoto{
     width: 20vw;
-}
-#photoContain{
-    width: 100%;
-    justify-content: center;
-}
-#headerExpertise{
-  padding: 2vw 0;
-  margin: 2vw 5vw;
-  border-top: #C8102E solid 2px;
-}
+} */

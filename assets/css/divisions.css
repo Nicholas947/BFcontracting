@@ -230,3 +230,34 @@ div#undergroundServicesText{
     text-align: center;
     margin: 5vh 15vw;
 }
+
+/* ------------------------------------ */
+/* Delivery methods */
+
+.deliveryMethods{
+    display: flex;
+    padding: 30px 30px;
+    background-color: rgba(0, 8, 12, 0.301);
+    justify-content: center;
+}
+
+.deliveryMethodsCards{
+    width: 30%;
+    background-color: white;
+}
+.deliveryMethodsText{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.alignmentButton{
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.deliveryMethodsText p{
+    padding: 50px 10px;
+    line-break: anywhere;
+}

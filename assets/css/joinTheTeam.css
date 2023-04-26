@@ -1,3 +1,4 @@
+/* This is equal html page just handles text on page */
 #equal{
     margin-top: 2vw;
     font-size: 3vw;
@@ -7,6 +8,8 @@
     padding: 3vw 5vw;
     font-size: 1vw;
 }
+/* ------------------------------------------------------- */
+/* career paths html pagecontrols the top header text */
 
 #pathsBody{
     margin: auto 13vw;
@@ -26,6 +29,9 @@ body{
     padding-left: 3vw;
     padding-right: 3vw;
 }
+
+/* ------------------------------------------------------- */
+/* CareerPaths.html is for page and handles all the section for safety, estimating ,etc */
 .careerPaths{
     width: 100%;
     margin: 2vw 0;

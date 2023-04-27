@@ -26,7 +26,7 @@ div.text{
 
 #generalInfo{
     display: block;
-    padding: 5vh 5vw;
+    padding: 5vh 0vw;
     background-color: rgba(0, 8, 12, 0.301);
 }
 #generalInfo .flex{

@@ -26,7 +26,6 @@ div.text{
 
 #generalInfo{
     display: block;
-    padding: 5vh 0vw;
     background-color: rgba(0, 8, 12, 0.301);
 }
 #generalInfo .flex{
@@ -84,15 +83,13 @@ div img{
 .morePadding{
     display: flex;
     background-color: white;
-    margin: 5vh;
-    height: 23vw;
-    
 }
 .paddingTextMethod{
     margin: 2vw;
     align-content: center;
     justify-content: center;
 }
+
 /* .paddingTextMethod a.button{
     position: relative;
     bottom: 0;
@@ -261,6 +258,9 @@ div#undergroundServicesText{
     padding-bottom: 10px;
 }
 .deliveryMethodsText p{
-    padding: 50px 10px;
+    padding: 0px 50px 50px 50px;
     line-break: anywhere;
+}
+.deliveryMethodsText h1{
+    padding: 30px 0;
 }

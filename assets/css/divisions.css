@@ -21,7 +21,6 @@ div.text{
 .divisions{
     display: flex;
     margin: auto;
-
 }
 
 #generalInfo{
@@ -34,14 +33,13 @@ div.text{
 .flex{
     display: flex;
 }
-div img{
-    max-width: 100%;
+div img.imgDeliverySize{
+    width: 70vw;
     max-height: 100%;
 }
 .flex div{
     margin: auto;
     justify-content: center;
-
 }
 .flex div p{
     width: 100%;
@@ -52,12 +50,10 @@ div img{
 
 #margin{
     margin: auto 5vw;
-  
     justify-content: center;
 }
 
 .padding  h1{
-    
     font-size: 2vw;
 }
 #flex2{
@@ -67,7 +63,6 @@ div img{
     justify-content: center;
     text-align: center;
     font-size: medium;
-
 }
 .sizingGrid div{
     padding: 1vh 1vw;
@@ -94,6 +89,17 @@ div img{
     position: relative;
     bottom: 0;
 } */
+.paddingTextMethod div.positionProjectButton{
+    position: relative;
+    width: 100%;
+}
+.paddingTextMethod div.positionProjectButton a.button{
+    position: absolute;
+    bottom: 0;
+}
+.deliveryMethodPhotos{
+    width: 100%;
+}
 
 .button{
     background-color: #C8102E;
@@ -110,11 +116,11 @@ img.imgDeliverySize{
     height:100%;
 }.flexDelivery div{
     justify-content: center;
-   
    width: fit-content;
 }
 .flexDelivery div p{
     width: 100%;
+    height: 80%;
     justify-content: center;
     align-items: center;
     padding: 2vw 0;
@@ -126,7 +132,6 @@ div#exploreProjects{
     align-items: center;
     padding: 3vh 8vw;
     margin: 3vh auto;
-
 }
 div#exploreProjects div{
     justify-content: center;
@@ -148,21 +153,17 @@ div#exploreProjects div{
     background-size: cover;
 }
 .contactWhiteBack{
-    
-    
     background-color: rgba(255, 255, 255, 0.467);
     width: fit-content;
 }
 
 #marketsText h1{
     margin: 4vw auto;
-    
     text-align: center;
 }
 #marketsText p{
     margin: 3vw 20vw;
     word-break: break-all;
-    
 }
 .contactWhiteBack h1, .padding div h1, .methodsHeader, #exploreProjects h1{
     font-size: 2.4vw;
@@ -175,7 +176,6 @@ div#exploreProjects div{
     justify-content: center;
     text-align: center;
     font-size: medium;
-
 }
 .sizingGridDivisions div{
     padding: 1vh 1vw;
@@ -191,8 +191,6 @@ div#exploreProjects div{
 
 .flexDeliveryServices div{
     justify-content: center;
-   
-
 }
 .flexDeliveryServices div p{
     width: 100%;
@@ -202,15 +200,11 @@ div#exploreProjects div{
 }
 
 .morePaddingServices{
-   
     display: flex;
     background-color: white;
     margin: 5vh;
-
-    
 }
 .morePaddingServices div{
-    
     align-content: center;
     justify-content: center;
 }
@@ -243,8 +237,10 @@ div#undergroundServicesText{
 
 .deliveryMethodsCards{
     width: 30%;
+    height: 940px;
     background-color: white;
 }
+
 .deliveryMethodsText{
     text-align: center;
     align-content: center;

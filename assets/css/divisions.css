@@ -237,8 +237,9 @@ div#undergroundServicesText{
 
 .deliveryMethodsCards{
     width: 30%;
-    height: 940px;
+    height: 1240px;
     background-color: white;
+    position: relative;
 }
 
 .deliveryMethodsText{
@@ -247,14 +248,20 @@ div#undergroundServicesText{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    
+    height:max-content;
 }
 .alignmentButton{
     display: flex; 
     justify-content: center;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    
 }
 .deliveryMethodsText p{
-    padding: 0px 50px 50px 50px;
+    padding: 0px 20px 50px 20px;
     line-break: anywhere;
 }
 .deliveryMethodsText h1{

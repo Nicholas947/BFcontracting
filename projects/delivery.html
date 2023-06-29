@@ -297,54 +297,150 @@
     </div>
 
     <!--holds the entire background change with all delivery methods-->
-    <div class="deliveryMethods">
-        <div class="deliveryMethodsCards">
-            <div class>
-                <img src="../assets/frontCover.jpg" alt="Design Bid Build Image" class="deliveryMethodPhotos">
+    <div class ="popup" id="popupDesign" >
+        <h1 style="padding: 20px 0;">Design Bid Build</h1>
+        <p style="padding: 0 20px 20px 20px;">
+         Sometimes referred to as “Hard Bid” or “Low Bid” is a common and popular procurement approach. With this method, 
+         the owner hires a designer to create plans and specifications, and then invites contractors to bid on the project. 
+         Typically, pricing on the job is submitted confidentially and the lowest priced bidder expects to get the contract.
+        The DBB method is straightforward and allows for competitive bidding but may result in potential conflicts between the 
+        designer and contractor. There is a possibility for discrepancies in the plans and specifications which may result in the 
+        contractor requesting more money once the selected. This occurs through change orders, which result in a bid price higher than
+        the original submittal. Additionally, bidders on publicly funded projects are usually required to supply a bid bond, 
+        performance bond, and/or payment bond to guarantee their company’s financial stability. 
+        The upside of DBB often is it brings the lowest price. This allows the owner to save on costs and it’s especially beneficial on projects where taxpayer funds are involved. Public agencies are obligated to award the lowest responsive bidder in most cases. On the downside, the lowest bidder often is not the most experienced. Since the contractor is selected solely on price, they may not provide the highest quality, safety, innovative methods, and Best Value.
+        B&F has extensive experience with DBB projects and can help navigate potential issues that may arise both prior to the bid date and after the bid.  Even though it is not required in this delivery method, B&F will still provide constructability input as well as budget, schedule, design, and potential value engineering alternatives. These are just a few strategies B&F implements which can add value to your project.
+       
+        </p>
+        <div>
+            <button class="designBidCloseBtn" onclick="closeDesignCard()">Close</button>
             </div>
+    </div>
+
+    <!-- JOC -->
+    <div class ="popup" id="popupJOC" >
+        <h1 style="padding: 20px 0;">JOC</h1>
+        <p style="padding: 0 20px 20px 20px;">
+            JOC contracts allow for the completion of multiple, small to medium-sized projects 
+            within a single procurement contract. This streamlined process saves time, reduces 
+            administrative burden, and leads to cost savings.
+            JOCs are generally advertised publicly with parameters set on single job limits, 
+            cumulative job limits, per year and advertised scope of work. Under a JOC contract,
+            a pre-qualified contractor or multiple contractors (generally around 3) are selected 
+            to complete a variety of construction projects. These projects may arise for capital 
+            improvement or operations and maintenance. Typically, these are a one-year contract 
+            with annual extensions of anywhere between one year to five years, but it may vary. 
+            As the owner agency, JOCs allow one contract to be approved which can have multiple 
+            smaller contracts not subject to going through the approval process again. 
+            B&F likes to work directly with the owner to determine goals including budget, 
+            schedule, quality expectations, community impact, aesthetics, lifespan, etc.  
+            This collaboration between the contractor and the owner results in projects being 
+            completed on time, on budget, and to the satisfaction of all parties involved. JOC 
+            contracts have become the go-to procurement method for government agencies and 
+            organizations that require frequent construction projects. If you're looking for a 
+            procurement method on smaller projects that are efficient, cost-effective, and 
+            promote collaboration, JOCs may be the procurement method you are looking for. 
+            At B&F, we are experts at managing multiple job orders concurrently and have active 
+            JOCs with agencies all over Arizona. Our unmatched expertise, quality, and self-performing ability allow us to respond quickly and efficiently to our clients’ job orders.
+            
+        </p>
+        <div>
+            <button class="designBidCloseBtn" onclick="closeJOC()">Close</button>
+            </div>
+    </div>
+        <!-- CMAR -->
+    <div class ="popup" id="popupCMAR" >
+        <h1 style="padding: 20px 0;">CMAR</h1>
+        <p style="padding: 0 20px 20px 20px;">
+            This procurement method brings the contractor in early in the process where the 
+            project may still be in the conceptual and design phase. The owner benefits from the 
+            contractor’s expertise and input on the design and construction aspects. 
+            CMAR is a collaborative approach that results in a more efficient and cost-effective 
+            construction process, with reduced risk of change orders and delays. This delivery 
+            method offers unmatched benefits to owners, including increased collaboration, reduced
+             risk, and improved project outcomes. Contractors are chosen based on their 
+             qualifications, which spans from their experience with similar projects to the 
+             overall value they can provide to the project. With the construction manager assuming
+            the risk for the construction process, owners can have peace of mind knowing that 
+            their project is in the most capable hands. CMAR contracts are the perfect solution 
+            for projects that require a high level of collaboration and risk management, which in many cases makes them the ultimate procurement method for your construction project! B&F is proud to have worked on many successful CMAR projects. Our expertise and proven CMAR approach will provide valuable insight to your project, ensuring it is completed on time and within budget.
+            
+        </p>
+        <div>
+            <button id="designBidCloseBtn" onclick="closeCMAR()">Close</button>
+            </div>
+    </div>
+
+    <div class ="popup" id="popupHardBids" >
+        <h1 style="padding: 20px 0;">HARD BIDS</h1>
+        <p style="padding: 0 20px 20px 20px;">
+            This procurement method brings the contractor in early in the process where the 
+            project may still be in the conceptual and design phase. The owner benefits from the 
+            contractor’s expertise and input on the design and construction aspects. 
+            CMAR is a collaborative approach that results in a more efficient and cost-effective 
+            construction process, with reduced risk of change orders and delays. This delivery 
+            method offers unmatched benefits to owners, including increased collaboration, reduced
+             risk, and improved project outcomes. Contractors are chosen based on their 
+             qualifications, which spans from their experience with similar projects to the 
+             overall value they can provide to the project. With the construction manager assuming
+            the risk for the construction process, owners can have peace of mind knowing that 
+            their project is in the most capable hands. CMAR contracts are the perfect solution 
+            for projects that require a high level of collaboration and risk management, which in many cases makes them the ultimate procurement method for your construction project! B&F is proud to have worked on many successful CMAR projects. Our expertise and proven CMAR approach will provide valuable insight to your project, ensuring it is completed on time and within budget.
+            
+        </p>
+        <div>
+            <button class="designBidCloseBtn" onclick="closeHardBids()">Close</button>
+            </div>
+    </div>
+    <div class ="popup" id="popupERW" >
+        <h1 style="padding: 20px 0;">EMERGENCY RESPONSE WORK</h1>
+        <p style="padding: 0 20px 20px 20px;">
+            This procurement method brings the contractor in early in the process where the 
+            project may still be in the conceptual and design phase. The owner benefits from the 
+            contractor’s expertise and input on the design and construction aspects. 
+            CMAR is a collaborative approach that results in a more efficient and cost-effective 
+            construction process, with reduced risk of change orders and delays. This delivery 
+            method offers unmatched benefits to owners, including increased collaboration, reduced
+             risk, and improved project outcomes. Contractors are chosen based on their 
+             qualifications, which spans from their experience with similar projects to the 
+             overall value they can provide to the project. With the construction manager assuming
+            the risk for the construction process, owners can have peace of mind knowing that 
+            their project is in the most capable hands. CMAR contracts are the perfect solution 
+            for projects that require a high level of collaboration and risk management, which in many cases makes them the ultimate procurement method for your construction project! B&F is proud to have worked on many successful CMAR projects. Our expertise and proven CMAR approach will provide valuable insight to your project, ensuring it is completed on time and within budget.
+            
+        </p>
+        <div>
+            <button class="designBidCloseBtn" onclick="closeERW()">Close</button>
+            </div>
+    </div>
+    
+    <div class="deliveryMethods">
+    
+        
+        <div class="deliveryMethodsCards">
+            
+            <div class="deliveryImageText">
+                <img src="../assets/frontCover.jpg" alt="Design Bid Build Image" class="deliveryMethodPhotos">
+                
+            </div>
+            
 
             <div class="deliveryMethodsText">
                 <h1>Design Bid Build</h1>
 
                 <p>
-                    sometimes referred to as “Hard Bid” or “Low Bid” is a 
-                    common and popular approach. With this method, the 
-                    owner hires a designer to create plans and 
-                    specifications, and then invites contractors to bid on 
-                    the project. Typically pricing on the job is submitted
-                     confidentially where the lowest priced bidder expects
-                      to get the contract. This method is straightforward
-                       and allows for competitive bidding but may result
-                    in potential conflicts between the designer and
-                     contractor. Also, discrepancies in the plans and 
-                    specifications may result in the contractor requesting
-                    more money through the change order process resulting 
-                    in a bid price higher than the original submittal.
-                     Bidders on Publicly funded projects are usually
-                      required to supply a bid bond and performance and
-                       payment bond to guarantee their financial stability.
-                        With taxpayer funds involved the agency is obligated
-                         in most cases to award the project to the lowest 
-                        responsive bidder.<br><br>
-                    The upside of DBB often is it brings the lowest price. <br><br>
-                    On the downside, the lowest bidder often is not the most experienced and may not provide the 
-                    highest quality and Best Value since with this process the contractor 
-                    is selected solely on price alone. <br><br>
-                    B&F has extensive experience with DBB projects and can help navigate 
-                    potential issues that may arise both prior to the bid date and after 
-                    the bid.  Even though not required in this procurement method B&F will
-                     still provide constructability input as well as budget, schedule 
-                     design and potential value engineering alternatives which can add 
-                     value to the project.
+                    Sometimes referred to as “Hard Bid” or “Low Bid” is a common and popular approach. With this method, 
+                    the owner hires a designer to create plans and specifications, and then invites contractors to bid on the project. 
+                    Typically pricing on the job is submitted confidentially where the lowest priced bidder expects to get the contract.
 
                 </p>
 
                 <div class="alignmentButton">
-                    <a href="../projects.html" class="button" >&#8594; VIEW OUR PROJECTS</a>
+                    <button class="actionButton" id="designBidBtn" onclick="showDesignCard()">&#8594; Read More</button>
                 </div>
             </div>
         </div>
-        
+        <script src="../src/Delivery.js"></script>
         <div class="deliveryMethodsCards" style="margin: 0 30px;">
             <div class>
                 <img src="../assets/frontCover.jpg" alt="Design Bid Build Image" class="deliveryMethodPhotos">
@@ -354,19 +450,12 @@
                 <h1>JOC</h1>
 
                 <p>
-                    JOC contracts allow for the completion of multiple, small to
-                     medium-sized projects within a single contract. This streamlined 
-                     process saves time, 
-                    reduces administrative burden, and leads to cost savings.<br><br>
-
-                    JOC’s are generally advertised publicly with parameters set on single job limits, cumulative job limits, per year and advertised scope of work.  Under a JOC contract, a pre-qualified contractor or multiple contractors generally around 3 are selected to complete a variety of construction projects which may arise for capital improvement or operations and maintenance. Typically these are a one year contract with annual extensions of up to one year with a total of 3 to 5 years. As the owner agency this allows one contract to be approved which can have multiple smaller contracts not subject to go through the approval process again. This collaboration between the contractor and the agency or organization results in projects being completed on time, on budget, and to the satisfaction of all parties involved. JOC contracts have become the go-to procurement method for government agencies and organizations that require frequent construction projects. If you're looking for a procurement method on smaller projects that are efficient, cost-effective, and promote collaboration, 
-                    JOC contracts may be the procurement method you are looking for.<br><br>
-
-                    We also have experience with other contract delivery methods such as design-build and public-private partnerships (PPP). With our expertise and knowledge of different contract delivery methods, we can help you make informed decisions that will ensure the success of your construction project.
+                    JOC contracts allow for the completion of multiple, small to medium-sized projects within a single procurement 
+                    contract. This streamlined process saves time, reduces administrative burden, and leads to cost savings.
                 </p>
 
                 <div class="alignmentButton">
-                    <a href="../projects.html" class="button" >&#8594; VIEW OUR PROJECTS</a>
+                    <button class="actionButton" id="designJOC" onclick="showJOC()">&#8594; Read More</button>
                 </div>
             </div>
         </div>
@@ -380,12 +469,13 @@
                 <h1>CMAR</h1>
 
                 <p>
-                    this procurement method brings the contractor in early on in the process where the project may still be in the conceptual and design phase.  Owner’s benefit from the contractors’ expertise and input on the design and construction aspects. This collaborative approach results in a more efficient and cost-effective construction process, with reduced risk of change orders and delays. The CMAR approach offers unmatched benefits to owners, including increased collaboration, reduced risk, and improved project outcomes. With the construction manager assuming the risk for the construction process, owners can have peace of mind knowing that their project is in the most capable hands. CMAR contracts are the perfect solution for projects that require a high level of collaboration and risk management, which in many cases makes them the ultimate procurement method for your construction project!  Our team has worked on many successful CMAR projects and can provide valuable insight to ensure your project is completed on time and within budget.
-
+                    This procurement method brings the contractor in early on in the process where the project may still be in the 
+                    conceptual and design phase.  Owner’s benefit from the contractors’ expertise and input on the design and 
+                    construction aspects. 
                 </p>
 
                 <div class="alignmentButton">
-                    <a href="../projects.html" class="button" >&#8594; VIEW OUR PROJECTS</a>
+                    <button class="actionButton" id="designCMAR" onclick="showCMAR()">&#8594; Read More</button>
                 </div>
             </div>
         </div>
@@ -403,25 +493,11 @@
                 <h1>Hard Bids</h1>
 
                 <p>
-                    This is the ultimate procurement method for cost-conscious owners - 
-                    hard bid contracts! With this approach, you can be assured that your 
-                    construction project will be completed at the most cost-effective price. 
-                    The competitive bidding process ensures that contractors are submitting 
-                    their best prices, and you can choose the lowest qualified bidder for maximum
-                    savings <br><br>
-                    
-                    While hard bid contracts prioritize cost savings over 
-                    collaboration, they remain a useful procurement method for many projects. 
-                    However, it's important to be aware of the potential drawbacks, such as a 
-                    lack of collaboration between the owner, design team, and contractor. 
-                    Consider whether hard bid contracts are the best fit for your project's 
-                    needs and budget. Choose the ultimate cost-effective option for your 
-                    construction project - 
-                    hard bid contracts are the best in the business!
+                    Is a method of procurement having the prime contractor hire the design firm and work together to build the project.
                 </p>
 
                 <div class="alignmentButton">
-                    <a href="../projects.html" class="button" >&#8594; VIEW OUR PROJECTS</a>
+                    <button class="actionButton" id="designBidBtn" onclick="showHardBids()">&#8594; Read More</button>
                 </div>
             </div>
         </div>
@@ -435,11 +511,14 @@
                 <h1>Emergency Response Work</h1>
 
                 <p>
-                    Within our JOC delivery method B&F performs Emergency Services work within the scope of our main services.  Many of our JOC”s have cooperative language which would allow them to be used as an emergency service by agencies that don’t have existing JOC contracts.  We can be on site within 2 hours to most areas of the Phoenix Metropolitan area as well as Tucson.
+                    Within our JOC delivery method B&F performs Emergency Services work within the scope of our main services.
+                    Many of our JOC”s have cooperative language which would allow them to be used as an emergency service by 
+                    agencies that don’t have existing JOC contracts.  We can be on site within 2 hours to most areas of the 
+                    Phoenix Metropolitan area as well as Tucson.
                 </p>
 
                 <div class="alignmentButton">
-                    <a href="../projects.html" class="button" >&#8594; VIEW OUR PROJECTS</a>
+                    <button class="actionButton" id="designCMAR" onclick="showERW()">&#8594; Read More</button>
                 </div>
             </div>
         </div>

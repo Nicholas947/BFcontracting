@@ -34,7 +34,7 @@ div.text{
     display: flex;
 }
 div img.imgDeliverySize{
-    width: 70vw;
+    
     max-height: 100%;
 }
 .flex div{
@@ -78,6 +78,7 @@ div img.imgDeliverySize{
 .morePadding{
     display: flex;
     background-color: white;
+    height: 100%;
 }
 .paddingTextMethod{
     margin: 2vw;
@@ -108,8 +109,8 @@ div img.imgDeliverySize{
     font-size: 1.8vw;
 }
 #deliveryMargin{
-    justify-content: center;
-    align-content: center;
+    
+    height: 500px;
 }
 
 img.imgDeliverySize{
@@ -233,11 +234,12 @@ div#undergroundServicesText{
     padding: 30px 30px;
     background-color: rgba(0, 8, 12, 0.301);
     justify-content: center;
+    
 }
 
 .deliveryMethodsCards{
     width: 30%;
-    height: 1240px;
+    height: 670px;
     background-color: white;
     position: relative;
 }
@@ -257,13 +259,63 @@ div#undergroundServicesText{
     padding-top: 10px;
     position: absolute;
     bottom: 10px;
-    left: 20%;
+    left: 30%;
     
 }
 .deliveryMethodsText p{
     padding: 0px 20px 50px 20px;
-    line-break: anywhere;
+    
 }
 .deliveryMethodsText h1{
-    padding: 30px 0;
+    padding: 15px 0;
+}
+.popup{
+    
+    text-align: center;
+    width: 500px;
+    background: #fff;
+    
+    position: fixed;
+    bottom: 50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    z-index: 20;
+}
+#popupDesign{
+    display: none;
+    border: black 1.5px solid;
+}
+#popupJOC{
+    display: none;
+    border: black 1.5px solid;
+
+}
+#popupCMAR{
+    display:none;
+    border: black 1.5px solid;
+
+}
+#popupHardBids{
+    display:none;
+    border: black 1.5px solid;
+
+}
+#popupERW{
+    display:none;
+    border: black 1.5px solid;
+}
+.actionButton{
+    background-color: #C8102E;
+    width: fit-content;
+    padding: .5vw 1vw;
+    font-size: 1.8vw;
+    color: #fff;
+    border: black 1px solid;
+
+}
+.designBidCloseBtn{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
 }

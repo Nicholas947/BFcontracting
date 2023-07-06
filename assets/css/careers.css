@@ -238,3 +238,6 @@ body{
 .jobDescription{
     padding: 15px 0;
 }
+.flip-card-back p{
+    padding-top: 20px;
+}

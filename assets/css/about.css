@@ -98,12 +98,18 @@ div#featuredProjects{
   font-size: 1vw;
 }
 
-
+.flex{
+  display: flex;
+}
 .imgLink{
   height:14vw;
 }
 
-
+.aboutSplit{
+  width: 30%;
+  text-align: center;
+  
+}
 
 #headerExpertise{
 padding: 2vw 0;

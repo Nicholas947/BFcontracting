@@ -14,10 +14,12 @@ div.flexB{
 
 .headerBenefit{
     font-size: 3vw;
-    
+    padding:50px 20px 20px 20px;
     text-align: center;
 }
-
+.statement p{
+    padding: 30px;
+}
 /* Change the size and cneters . Splits the text and logo into 50 percent of screen */
 div.statement{
     align-content: center;
@@ -27,7 +29,9 @@ div.statement{
     justify-content: center;
 
 }
-
+.statement img{
+    transform: translateY(100%)
+}
 /* Bottom box section that has 4 important benefits of b&f */
 div#benefitsB{
     display: flex;
@@ -59,7 +63,7 @@ div#benefitsB{
 .benefits{
     width: 100%;
     background-color: #9e9e9eb0;
-    height: 50vh;
+    
     margin-top: 3vh;
 }
 
@@ -80,5 +84,7 @@ div.section{
     text-align: center;
     font-size: 2vw;
 }
-
+.text p{
+    padding: 10px 30px 30px 30px;
+}
 

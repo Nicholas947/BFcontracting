@@ -74,10 +74,10 @@ body{
     justify-content: center;
 }
 #alignbeliefs h1{
-    padding: 1vw 3vw;
+    padding: 1vw 0vw;
     background-color: #C8102E;
     margin: 2vw auto;
-    width: fit-content;
+    width: 220px;
     color: white;
     font-size: large;
     

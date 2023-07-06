@@ -14,7 +14,7 @@ button{
 
 
 
-/* #ThirtyYear{
+#ThirtyYear{
     display: flex;
 }
 #yearText{
@@ -30,12 +30,12 @@ button{
     display: block;
     margin:auto;
     align-content: center;
-    transform: translateY(30%);
+    transform: translateY(50%);
 }
 #year50{
     width: 50%;
 
-} */
+}
 /* --------------------------------------------- */
 /* Slide show at the top with text and scrolling */
 .slideshow{
@@ -160,7 +160,7 @@ a#headers{
     text-align: center;
     width: 100%;
     justify-content: center;
-    position: absolute;
+
     background-color: #53565A;
     padding: 3% 0;
 }
@@ -225,6 +225,12 @@ div#featuredProjects{
 }
 .Expertise{
     background-color: rgba(104, 104, 104, 0.445);
+}
+
+           
+.expertiseBullets p{
+    padding: 5px 0;
+    background-color: white;
 }
 
 /* #year{

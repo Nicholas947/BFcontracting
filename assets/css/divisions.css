@@ -34,7 +34,7 @@ div.text{
     display: flex;
 }
 div img.imgDeliverySize{
-    
+    width: 100%;
     max-height: 100%;
 }
 .flex div{
@@ -81,9 +81,14 @@ div img.imgDeliverySize{
     height: 100%;
 }
 .paddingTextMethod{
-    margin: 2vw;
+    margin: 5vw;
     align-content: center;
     justify-content: center;
+    width: 35%;
+}
+
+.paddingTextMethod p{
+    border-top: 2px #C8102E solid;
 }
 
 /* .paddingTextMethod a.button{
@@ -110,14 +115,14 @@ div img.imgDeliverySize{
 }
 #deliveryMargin{
     
-    height: 500px;
+    height: 650px;
+}
+.marketsIMG{
+    width: 65%;
 }
 
 img.imgDeliverySize{
     height:100%;
-}.flexDelivery div{
-    justify-content: center;
-   width: fit-content;
 }
 .flexDelivery div p{
     width: 100%;
